@@ -1,12 +1,24 @@
+
 ---
 title: "Me-sida"
+---
+---
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta: 
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och sidan är uppbygd med ett flat file content ramverk som heter *Anax*.
 
-[FIGURE src="image/me.jpg?w=300" class="right" caption="Bild på mig vid havet."]
+[FIGURE src="image/me-small.jpg?w=300" class="right" caption="Bild på mig vid havet."]
 
 *Hej!*
 
