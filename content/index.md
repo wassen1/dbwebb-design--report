@@ -1,25 +1,27 @@
 ---
-title: "Min fina titel"
+title: "Me-sida"
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Detta innehåll är skrivet i markdown och sidan är uppbygd med ett flat file content ramverk som heter *Anax*.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=300" class="right" caption="Bild på mig vid havet."]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+*Hej!*
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Kul att du har hittat hit. Detta är en sida som är skapad för kursen **Teknisk webbdesign och användbarhet** vid Blekinge Tekniska Högskola.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+## Lite om mig ##
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jag har intresserat mig för programmering sedan 2017. Det började med att vi startade en dataklubb tillsammans med några vänner för att förkovra oss inom datorer och programmering.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Jag har även läst en kurs i *Java* och en i *Android*. Har också läst kurspaketet *Webbutveckling och programmering* vid Blekinge Tekniska Högskola. I kursen har vi läst kurser så som *Python*, *Linux*, *Javascript* och *Webapp*.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Har också läst *Webbteknologier* i kurspaketet *Webbprogrammering och Databaser* vid Blekinge Tekniska Högskola.
 
-Vi syns och hörs i forum och chatt!
+Ett annat intresse än programmering är segling. Har alltid varit ute i båt om somrarna och även läst Fartygsbefäl kl7 på sjöfartshögskolan i Kalmar.
 
-/Mikael
+Under de senaste åren har jag varit anställd på ett filmbolag. Vi har producerat filmer framför allt för TV, både SVT och andra europeiska kanaler.
+
+Jag har inte sysslat med datorer som ung och jag körde heller inte moppe. Men det är aldrig för sent att lära sig något nytt och intressant! Så numera kör jag motorcykel och ser ett nöje i att programmera på datorn och skapa häftiga saker.
