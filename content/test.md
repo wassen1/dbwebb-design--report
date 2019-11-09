@@ -3,15 +3,25 @@
 title: "Me-sida"
 ---
 ---
-
+views:
+    testright:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: block/test
 ---
-Testsida
+En h1:a
 =========================
 
-Testar runt
+## En h2:a ## 
+### En h3:a ###
 
-* Ser hur det blir
+[FIGURE src="image/me-small.jpg?w=150" class="right" caption="Bild på mig vid havet."]
 
-> Det här kanske blir något skoj.
+* En *li*
 
->> Får se hur det blir.
+> Det här är ett blockquote.
+
+>> Och det här är ett till fast inuti det andra.
