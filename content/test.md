@@ -25,3 +25,8 @@ En h1:a
 > Det här är ett blockquote.
 
 >> Och det här är ett till fast inuti det andra.
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
