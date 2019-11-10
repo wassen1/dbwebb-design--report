@@ -87,6 +87,25 @@ blockquote {
 	margin-bottom: 24px;
 }
 
+table {
+	border: 1px solid aliceblue;
+	border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid aliceblue;
+}
+
+th {
+	padding: 15px;
+}
+
+td {
+    border: 1px solid aliceblue;
+    padding: 20px ;
+}
+
+
 /* Container */
 
 .wrap-all {
@@ -129,7 +148,6 @@ blockquote {
 }
 
 .my-navbar {
-    list-style-type: none;
     padding-top: 15px;
 }
 
@@ -173,6 +191,12 @@ blockquote {
 
 .region-sidebar-right {
     float: left;
+}
+
+.region-main.has-sidebar-left {
+	float: left;
+	width: 60%;
+	margin-left: 4.6875%;
 }
 
 .region-main.has-sidebar-right {
@@ -230,6 +254,24 @@ figure.figure.right {
 .wrap-sidebar .block h4 {
 	border-top: 1px solid #ccc;
 	background-image: linear-gradient(to right,#fff,#ccc);
+}
+
+/* Breadcrumb*/
+
+.breadcrumb-list li {
+    display: inline;
+
+}
+
+.breadcrumb-list li::after {
+    content: " » ";
+}
+
+/* Sidebar left */
+
+.region-sidebar-left li {
+    list-style-type: none;
+    padding-top: 15px;
 }
 
 /* Footer */
