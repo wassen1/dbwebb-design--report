@@ -1,10 +1,16 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@bgColorHtml: #424242;
-@bgColorBody: #fff;
+@bgColorHtml: green; // #424242;
+@bgColorBody: #ccc;
 @colorBody: #333;
 @fontFamilyBody: serif;
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
 
 html {
     overflow-y: scroll;
@@ -17,4 +23,92 @@ body {
     color: @colorBody;
     background-color: @bgColorBody;
     font: 100.01%/1 @fontFamilyBody;
+}
+
+h1,
+h2,
+h4 {
+    margin-left: 0.2rem;
+}
+
+h1 {
+	font-size: 2.375em;
+	line-height: 1.26315789;
+	font-weight: 400;
+	border-bottom: 1px solid #666;
+	margin-bottom: 23px;
+}
+
+h2 {
+	font-size: 1.875em;
+	line-height: 1.6;
+	font-weight: 400;
+	margin-top: 48px;
+	margin-bottom: 23px;
+	border-bottom: 1px solid rgb(173, 171, 171);
+}
+
+h3 {
+	font-size: 1.375em;
+	line-height: 1.09090909;
+	font-weight: 400;
+	margin-top: 48px;
+	margin-bottom: 23px;
+	border-bottom: 1px solid #EEE;
+}
+
+p {
+    margin: 1em 0;
+}
+
+div {
+    display: block;
+}
+
+select {
+	margin: 1em 0;
+}
+
+fieldset {
+	padding: 20px;
+}
+
+th {
+	text-align: left;
+	padding-right: 10px;
+}
+
+img {
+    max-width: 100%;
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+}
+
+ul {
+	padding-left: 1.5em;
+}
+
+blockquote {
+	border-left: 4px solid rgb(180, 177, 177);
+	padding-left: 1em;
+	margin-left: 0;
+	margin-bottom: 24px;
+}
+
+table {
+	border: 1px solid aliceblue;
+	border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid aliceblue;
+}
+
+th {
+	padding: 15px;
+}
+
+td {
+    border: 1px solid aliceblue;
+    padding: 20px ;
 }
