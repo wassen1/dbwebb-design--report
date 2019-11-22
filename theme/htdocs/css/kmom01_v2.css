@@ -136,7 +136,7 @@ td {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  background-color: yellow;
+  background-color: #fcfafa;
 }
 .right {
   float: right;
@@ -186,13 +186,13 @@ td {
 /**
 * Navbar
 */
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1020px) {
   .rm-desktop a {
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 }
-@media screen and (max-width: 802px) {
+@media screen and (max-width: 980px) {
   .region-header-col-3 {
     width: 10%;
     height: 10px;
@@ -204,7 +204,7 @@ td {
     width: 25%;
   }
 }
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 795px) {
   .rm-desktop {
     display: none;
   }
@@ -261,7 +261,7 @@ td {
 /**
 *   Responsive navbar
 */
-@media screen and (min-width: 665px) {
+@media screen and (min-width: 796px) {
   .rm-small-wrapper {
     display: none;
   }
