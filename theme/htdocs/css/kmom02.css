@@ -4,6 +4,13 @@
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
 /**
+ * Import mixins.
+ */
+/**
+ * A small clearfix:
+ * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
+ */
+/**
  * Normalize and reset the style.
  */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -4728,31 +4735,14 @@ template {
  * Internal self contained modules, save in directory module/.
  */
 /*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
- */
-/* Container */
+* Stylesheet for design kmom01.
+*
+* This stylesheet is for the design course and kmom01. Fill it with style
+* to style up the website so it is useable.
+*/
 /* Header */
-.region-header-col-1 {
-  float: left;
-  width: 20%;
-  margin-right: 10px;
-}
-.region-header-col-2 {
-  float: left;
-  width: 70%;
-}
-.inner-wrap-header {
-  width: 100%;
-}
 .my-navbar {
   padding-top: 15px;
-}
-.my-navbar li {
-  display: inline;
-  padding: 2px 15px;
 }
 .my-navbar a {
   text-decoration: none;
@@ -4816,7 +4806,6 @@ template {
   padding-left: 10px;
   font-size: 0.8em;
   font-style: italic;
-  overflow: auto;
 }
 .byline img {
   height: 70px;
@@ -4887,6 +4876,231 @@ figure.figure.right {
 .footer-column-1,
 .footer-column-2 {
   border-right: 1px solid #666;
+}
+/**
+ * Style for responsive menu
+ */
+/**
+ * Outer wrapper for menu
+ */
+.rm-navbar {
+  position: relative;
+}
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/**
+ * Avoid scrolling mobile devices
+ * OBSOLETE?
+ */
+/**
+ * Meny layout for the small buttonized menu.
+ */
+.rm-small {
+  display: none;
+  float: right;
+}
+a.rm-button {
+  display: inline-block;
+  color: inherit;
+  background-color: transparent;
+  outline: none;
+}
+a.rm-button:active {
+  color: inherit;
+  background-color: transparent;
+}
+a.rm-button .rm-button-face-1 {
+  position: absolute;
+  transition: color 0.1s ease;
+}
+a.rm-button .rm-button-face-2 {
+  position: relative;
+  color: transparent;
+  transition: color 0.1s ease;
+}
+a.rm-button.rm-clicked {
+  color: #9FB129;
+  background-color: transparent;
+}
+a.rm-button.rm-clicked .rm-button-face-1 {
+  color: transparent;
+}
+a.rm-button.rm-clicked .rm-button-face-2 {
+  z-index: 2;
+  color: inherit;
+}
+/**
+ * Standard meny layout, valid for any subtype.
+ */
+.rm-default li {
+  display: inline-block;
+}
+.rm-default li li {
+  display: block;
+  min-width: 10em;
+}
+.rm-default a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 1em;
+  outline: none;
+}
+.rm-default ul {
+  position: absolute;
+  z-index: 9999;
+  left: -9999px;
+}
+.rm-default ul.rm-show-submenu {
+  left: 0;
+}
+.rm-default ul li {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+}
+.rm-default ul ul {
+  left: -9999px;
+}
+/**
+ * Menu layout for the desktop variant, usually full width of browser.
+ */
+.rm-desktop ul {
+  background-color: inherit;
+}
+.rm-desktop li {
+  position: relative;
+}
+.rm-desktop li a:hover,
+.rm-desktop li.current-menu-item a {
+  text-decoration: underline;
+}
+.rm-desktop li a {
+  color: inherit;
+  background-color: inherit;
+}
+.rm-desktop li a:hover {
+  color: inherit;
+  background-color: inherit;
+}
+.rm-desktop li:hover > ul {
+  left: 0;
+}
+.rm-desktop li:hover > ul.rm-submenu-level-1 {
+  left: auto;
+  left: 30%;
+}
+.rm-desktop li .rm-submenu-button {
+  display: none;
+}
+/**
+ * Menu layout for the mobile variant, usually for mobile screens.
+ */
+.rm-mobile {
+  width: 100%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+  background-color: #444;
+  color: #fff;
+}
+.rm-mobile a {
+  color: inherit;
+}
+.rm-mobile li {
+  display: block;
+  box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
+  /*        // Header of submenu is closed
+        //&.sub-menu, // For WordPress menu generating
+        &.rm-submenu > a:before {
+            content: "\f0d7";
+        }
+
+        // Header of submenu is opened
+        &.rm-submenu-open > a:before {
+            content: "\f0d8";
+        }
+*/
+}
+.rm-mobile li.rm-submenu-open > ul {
+  position: relative;
+  left: 0;
+}
+/**
+ * Menu layout for the max variant, for mobile screens and complete menues.
+ * Swipe from right by default.
+ */
+.rm-max.rm-navbar {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+.rm-max .rm-small {
+  display: block;
+}
+.rm-max .rm-small .rm-button {
+  color: inherit;
+}
+.rm-max .rm-small .rm-button.rm-clicked {
+  color: #9FB129;
+  position: fixed;
+  top: 16px;
+  right: 24px;
+  z-index: 999;
+}
+.rm-max .rm-mobile {
+  transition: all 0.15s linear;
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  transform: translateX(100%);
+  width: 500px;
+  max-width: 500px;
+  height: 500px;
+  overflow-y: auto;
+  padding-top: 72px;
+  background-color: #131313;
+  /* Color when menu item is clicked */
+  /* Button for submenu */
+  /* Style for submenu */
+}
+.rm-max .rm-mobile li a:active {
+  background-color: transparent;
+}
+.rm-max .rm-mobile.rm-clicked {
+  transform: translateX(0);
+}
+.rm-max .rm-mobile a:hover {
+  text-decoration: underline;
+}
+.rm-max .rm-mobile .rm-submenu-button {
+  float: right;
+  box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
+  background-color: #444;
+  padding: 8px 24px;
+  margin-right: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.rm-max .rm-mobile .rm-submenu-button:after {
+  content: "\25BC";
+}
+.rm-max .rm-mobile .rm-submenu-button:hover {
+  text-decoration: none;
+  background-color: #ccc;
+}
+.rm-max .rm-mobile li ul {
+  padding-left: 8px;
+}
+.rm-max .rm-mobile .rm-submenu-open > .rm-submenu-button:after {
+  content: "\25B2";
+}
+.rm-max.rm-swipe-left .rm-mobile {
+  left: 0;
+}
+.rm-max.rm-swipe-right .rm-mobile {
+  right: 0;
 }
 /**
  * Base style to affect HTML elements on a general scale.
@@ -4994,16 +5208,8 @@ td {
  * Variables
  */
 /**
- * General layout
- */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
+* General layout
+*/
 .wrap-all {
   background-color: #d3d0d0;
 }
@@ -5016,9 +5222,6 @@ td {
   margin-right: auto;
   background-color: yellow;
 }
-.row {
-  overflow: auto;
-}
 .right {
   float: right;
 }
@@ -5030,21 +5233,12 @@ td {
  * Variables
  */
 /**
- * General layout
- */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
-.wrap-all {
-  background-color: #d3d0d0;
-}
-.outer-wrap {
-  width: 100%;
+* General layout
+*/
+.outer-wrap::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .inner-wrap {
   max-width: 800px;
@@ -5052,11 +5246,32 @@ td {
   margin-right: auto;
   background-color: green;
 }
-.row {
-  overflow: auto;
+.inner-wrap::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.right {
-  float: right;
+/**
+* Header layout
+*/
+.outer-wrap-header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inner-wrap-header {
+  max-width: 100%;
+  background-color: yellow;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  width: 20%;
+  float: left;
+}
+.region-header-col-2 {
+  width: 60%;
+  float: left;
+  text-align: center;
 }
 /**
 * Footer layout
@@ -5072,6 +5287,54 @@ td {
 @media screen and (max-width: 1500px) {
   .site-logo {
     display: none;
+  }
+}
+/**
+* Navbar
+*/
+@media screen and (max-width: 880px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+@media screen and (max-width: 802px) {
+  .region-header-col-3 {
+    background-color: red;
+    width: 10%;
+    height: 10px;
+  }
+  .region-header-col-2 {
+    background-color: yellowgreen;
+    width: 65%;
+  }
+  .region-header-col-1 {
+    width: 25%;
+    background-color: white;
+  }
+}
+@media screen and (max-width: 665px) {
+  .rm-desktop {
+    display: none;
+  }
+  .region-header-col-2 {
+    width: 0;
+  }
+  .region-header-col-1 {
+    width: 90%;
+    background-color: white;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer-column-wrapper {
+    flex-direction: column;
+  }
+  .footer-column {
+    padding-right: 0;
+  }
+  .footer-column-1,
+  .footer-column-2 {
+    border-right: none;
   }
 }
 /**

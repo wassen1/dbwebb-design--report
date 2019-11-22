@@ -9,25 +9,10 @@
 
 
 /**
- * General layout
- */
-
- /* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-    display: none;
-}
-
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-    display: none;
-}
-
-.wrap-all {
-    background-color: rgb(211, 208, 208);
-}
-
+* General layout
+*/
 .outer-wrap {
-    width: 100%;
+    .clearfix();
 }
 
 .inner-wrap {
@@ -35,16 +20,35 @@
     margin-left: auto;
     margin-right: auto;
     background-color: green;
+    .clearfix();
 }
 
-.row {
-    overflow: auto;
+
+/**
+* Header layout
+*/
+
+.outer-wrap-header {
+    // background-color: yellow;
+    .clearfix();
 }
 
-.right {
-    float: right;
+.inner-wrap-header {
+   max-width: 100%;
+   background-color: yellow;
 }
 
+.region-header-col-1,
+.region-header-col-3 {
+    width: 20%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
 /**
 * Footer layout
 */
