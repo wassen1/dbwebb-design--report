@@ -8,149 +8,6 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
-/*!
-* Stylesheet for design kmom01.
-*
-* This stylesheet is for the design course and kmom01. Fill it with style
-* to style up the website so it is useable.
-*/
-/* Header */
-.my-navbar {
-  padding-top: 15px;
-}
-.my-navbar a {
-  text-decoration: none;
-}
-.my-navbar a:visited {
-  color: inherit;
-}
-.site-logo {
-  display: none;
-}
-.site-logo-text a {
-  color: #333;
-  text-decoration: none;
-  font-size: 42px;
-}
-/* Main */
-.inner-wrap-main {
-  padding: 40px 0;
-}
-.region-sidebar-left,
-.region-sidebar-right {
-  width: 30%;
-}
-.region-sidebar-left {
-  float: left;
-}
-.region-sidebar-right {
-  float: left;
-}
-.region-main.has-sidebar-left {
-  float: left;
-  width: 60%;
-  margin-left: 4.6875%;
-}
-.region-main.has-sidebar-right {
-  float: left;
-  width: 60%;
-  margin-right: 30px;
-  margin-left: 10px;
-}
-.byline {
-  background-color: #fff;
-  overflow: auto;
-  /* clear fix to make div span all elements */
-  border: 1px solid #e2e1e1;
-  border-radius: 2px;
-  max-width: 400px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 10px;
-}
-.byline-title {
-  display: block;
-  padding-top: 10px;
-  padding-left: 10px;
-  font-size: 1em;
-  overflow: auto;
-}
-.byline-slogan {
-  display: block;
-  padding-left: 10px;
-  font-size: 0.8em;
-  font-style: italic;
-}
-.byline img {
-  height: 70px;
-  width: 70px;
-}
-.flashmessage {
-  background-color: #aaceec;
-}
-.flashmessage-icon {
-  float: right;
-  font-size: 2.5em;
-}
-figure.figure.right {
-  margin-left: 30px;
-}
-.wrap-sidebar .block h4 {
-  border-top: 1px solid #ccc;
-  background-image: linear-gradient(to right, #fff, #ccc);
-}
-/* Breadcrumb*/
-.breadcrumb-list li {
-  display: inline;
-}
-.breadcrumb-list li::after {
-  content: " » ";
-}
-/* Sidebar left */
-.region-sidebar-left li {
-  list-style-type: none;
-  padding-top: 15px;
-}
-/* Footer */
-.inner-wrap-footer {
-  padding: 10px 0 10px 0;
-}
-.region-footer > .block {
-  padding-top: 30px;
-  width: 100%;
-  text-align: center;
-}
-.region-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer-column-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  border-bottom: 1px solid #666;
-  padding-bottom: 20px;
-  margin-bottom: 10px;
-}
-.region-footer a {
-  color: inherit;
-}
-.region-footer a:hover {
-  color: greenyellow;
-}
-.footer-column-x {
-  padding: 20px;
-}
-.footer-column {
-  flex-grow: 1;
-  padding-right: 30px;
-}
-.footer-column-1,
-.footer-column-2 {
-  border-right: 1px solid #666;
-}
 /**
  * Style for the stylechooser.
  */
@@ -218,6 +75,7 @@ div {
 }
 select {
   margin: 1em 0;
+  width: 100%;
 }
 fieldset {
   padding: 20px;
@@ -284,6 +142,40 @@ td {
   float: right;
 }
 /**
+*   Main and sidebars layout
+*/
+.region-main {
+  width: 70%;
+  margin-left: 10%;
+}
+.region-main.has-sidebar {
+  margin-left: 0;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 60%;
+}
+.inner-wrap-main {
+  padding: 40px 0;
+}
+.region-sidebar-left,
+.region-sidebar-right {
+  width: 30%;
+}
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+}
+.region-sidebar-left,
+.region-sidebar-right,
+.region-main {
+  float: left;
+  padding: 10px;
+}
+.wrap-sidebar .block h4 {
+  border-top: 1px solid #ccc;
+  background-image: linear-gradient(to right, #fff, #ccc);
+}
+/**
  * Layout for responsive style through media queries.
  */
 @media screen and (max-width: 1500px) {
@@ -302,17 +194,14 @@ td {
 }
 @media screen and (max-width: 802px) {
   .region-header-col-3 {
-    background-color: red;
     width: 10%;
     height: 10px;
   }
   .region-header-col-2 {
-    background-color: yellowgreen;
     width: 65%;
   }
   .region-header-col-1 {
     width: 25%;
-    background-color: white;
   }
 }
 @media screen and (max-width: 665px) {
@@ -324,10 +213,32 @@ td {
   }
   .region-header-col-1 {
     width: 90%;
-    background-color: white;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 640px) {
+  .inner-wrap-main .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .has-sidebar div {
+    text-align: center;
+  }
+  .wrap-sidebar {
+    width: 100%;
+  }
+  .has-sidebar ul {
+    padding: 0;
+  }
+  .region-main {
+    width: 100%;
+    padding: 5%;
+    margin: 0;
+  }
+}
+/**
+*   Footer
+*/
+@media screen and (max-width: 500px) {
   .footer-column-wrapper {
     flex-direction: column;
   }
@@ -337,6 +248,22 @@ td {
   .footer-column-1,
   .footer-column-2 {
     border-right: none;
+  }
+}
+@media screen and (max-width: 470px) {
+  .region-main {
+    padding: 0;
+  }
+  fieldset {
+    padding: 0;
+  }
+}
+/**
+*   Responsive navbar
+*/
+@media screen and (min-width: 665px) {
+  .rm-small-wrapper {
+    display: none;
   }
 }
 /**
