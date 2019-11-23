@@ -5127,6 +5127,10 @@ figure.figure.right {
   text-decoration: none;
   font-size: 42px;
 }
+.rm-desktop ul {
+  background-color: #fcfafa;
+  color: black;
+}
 /**
  * Style for sidebar.
  */
@@ -5282,6 +5286,12 @@ figure.figure.right {
   background-image: linear-gradient(to bottom, #5fafd4, #299ed4);
 }
 /**
+* Flash layout
+*/
+.inner-wrap-flash {
+  max-width: 800px;
+}
+/**
 * Header layout
 */
 .outer-wrap-header::after {
@@ -5313,7 +5323,15 @@ figure.figure.right {
   color: azure;
 }
 /**
- * Layout for responsive style through media queries.
+ * Layout flash image.
+ */
+@media screen and (max-width: 1920px) {
+  .inner-wrap-flash {
+    max-width: 100%;
+  }
+}
+/**
+ * Layout site-logo.
  */
 @media screen and (max-width: 1500px) {
   .site-logo {

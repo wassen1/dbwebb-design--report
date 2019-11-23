@@ -176,7 +176,15 @@ td {
   background-image: linear-gradient(to right, #fff, #ccc);
 }
 /**
- * Layout for responsive style through media queries.
+ * Layout flash image.
+ */
+@media screen and (max-width: 1920px) {
+  .inner-wrap-flash {
+    max-width: 100%;
+  }
+}
+/**
+ * Layout site-logo.
  */
 @media screen and (max-width: 1500px) {
   .site-logo {
