@@ -4973,6 +4973,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   background-color: #333;
+  font-size: 100%;
 }
 body {
   margin: 0;
@@ -5009,8 +5010,14 @@ h3 {
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
+h4 {
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+}
 p {
-  margin: 1em 0;
+  line-height: 1.4;
+  font-size: 1em;
+  margin-bottom: 1.4rem;
 }
 div {
   display: block;
@@ -5053,6 +5060,11 @@ th {
 td {
   border: 1px solid aliceblue;
   padding: 20px ;
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
 }
 /**
  * Style for byline.
@@ -5250,7 +5262,7 @@ figure.figure.right {
 .region-sidebar-right,
 .region-main {
   float: left;
-  padding: 10px;
+  padding: 30px;
 }
 .wrap-sidebar .block h4 {
   border-top: 1px solid #ccc;
