@@ -5012,6 +5012,24 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
   clear: both;
 }
+.vgrid .inner-wrap {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 1100px) {
+  .vgrid .inner-wrap {
+    background-size: 1100px auto;
+  }
+}
+.vgrid .inner-wrap.inner-wrap-header {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 100%) {
+  .vgrid .inner-wrap.inner-wrap-header {
+    background-size: 100% auto;
+  }
+}
 .wrap-all {
   background-color: #d3d0d0;
 }

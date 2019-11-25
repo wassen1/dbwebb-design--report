@@ -15,6 +15,17 @@
     // background-color: #0f0;
     margin-bottom: 12px;
 }
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
 .wrap-all {
     background-color: rgb(211, 208, 208);
 }
