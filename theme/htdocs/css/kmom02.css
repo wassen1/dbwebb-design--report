@@ -5113,12 +5113,40 @@ figure.figure.right {
   background-color: #aaceec;
 }
 .flashmessage-icon {
-  float: right;
   font-size: 2.5em;
 }
 /**
  * Style for header.
  */
+/**
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#desinax-vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
 /**
 *   Style for header.
 */
@@ -5142,6 +5170,13 @@ figure.figure.right {
 .rm-desktop ul {
   background-color: #fcfafa;
   color: black;
+}
+.region-flash img {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /**
  * Style for sidebar.

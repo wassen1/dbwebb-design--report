@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom02.
+ * Stylesheet for design kmom03.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4960,6 +4960,145 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
+* Import the vertical grid.
+*/
+/**
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#desinax-vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
+/**
+ * Layout using vgrid.
+ */
+/**
+ * Variables
+ */
+/**
+* General layout
+*/
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  margin-bottom: 12px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.wrap-all {
+  background-color: #d3d0d0;
+}
+/**
+*   Main and sidebars layout
+*/
+.region-main {
+  display: inline;
+  float: left;
+  width: 73.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-sidebar-left,
+.region-sidebar-right {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.wrap-sidebar .block h4 {
+  border-top: 1px solid #ccc;
+  background-image: linear-gradient(to right, #fff, #ccc);
+}
+/**
+* General layout
+*/
+.outer-wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+  background-color: #5fafd4;
+}
+.inner-wrap-main {
+  background-image: linear-gradient(to bottom, #5fafd4, #299ed4);
+}
+/**
+* Header layout
+*/
+.inner-wrap-header {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  background-color: #3a3a39;
+  color: #fcfafa;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  display: inline;
+  float: left;
+  width: 19.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-header-col-2 {
+  display: inline;
+  float: left;
+  width: 57.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  text-align: center;
+}
+/**
+* Flash layout
+*/
+/**
+* Footer layout
+*/
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.outer-wrap-footer,
+.inner-wrap-footer {
+  background: linear-gradient(0deg, #171717 0%, #3d3d3d 100%);
+  color: azure;
+}
+/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -5070,83 +5209,11 @@ td {
  * Style for byline.
  */
 /**
- * Byline style.
- */
-.byline {
-  background-color: #fff;
-  overflow: auto;
-  /* clear fix to make div span all elements */
-  border: 1px solid #e2e1e1;
-  border-radius: 2px;
-  max-width: 400px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 10px;
-}
-.byline-title {
-  display: block;
-  padding-top: 10px;
-  padding-left: 10px;
-  font-size: 1em;
-  overflow: auto;
-}
-.byline-slogan {
-  display: block;
-  padding-left: 10px;
-  font-size: 0.8em;
-  font-style: italic;
-}
-.byline img {
-  height: 70px;
-  width: 70px;
-}
-figure.figure.right {
-  margin-left: 30px;
-}
-/**
  * Style for flashmessage.
  */
 /**
-*   Style for flashmessage.
-*/
-.flashmessage {
-  background-color: #aaceec;
-}
-.flashmessage-icon {
-  font-size: 2.5em;
-}
-/**
  * Style for header.
  */
-/**
- * Fluid and Responsive Vertical Grid
- */
-/**
- * Namespace what could be namespaced
- */
-#desinax-vgrid {
-  /**
-     * Wrap grid in a container.
-     */
-  /**
-     * Show grid.
-     */
-  /**
-     * All columns must be wrapped in a row.
-     */
-  /**
-     * Create a column spanning @col columns.
-     */
-  /**
-     * Push a column @offset columns.
-     */
-  /**
-     * Pull a column left @offset columns.
-     */
-  /**
-     * Pull a column right @offset columns.
-     */
-}
 /**
 *   Style for header.
 */
@@ -5181,293 +5248,13 @@ figure.figure.right {
 /**
  * Style for sidebar.
  */
-/* Sidebar left */
-.region-sidebar-left li {
-  list-style-type: none;
-  padding-top: 15px;
-}
-/**
- * Style for footer.
- */
-/* Footer */
-.inner-wrap-footer {
-  padding: 10px 0 10px 0;
-}
-.region-footer > .block {
-  padding-top: 30px;
-  width: 100%;
-  text-align: center;
-}
-.region-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #5fafd4;
-}
-.footer-column-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  border-bottom: 1px solid #666;
-  padding-bottom: 20px;
-  margin-bottom: 10px;
-}
-.region-footer a {
-  color: inherit;
-}
-.region-footer a:hover {
-  color: greenyellow;
-}
-.footer-column-x {
-  padding: 20px;
-}
-.footer-column {
-  flex-grow: 1;
-  padding-right: 30px;
-}
-.footer-column-1,
-.footer-column-2 {
-  border-right: 1px solid #666;
-}
 /**
  * Style for breadcrumb.
  */
-/* Breadcrumb*/
-.breadcrumb-list li {
-  display: inline;
-}
-.breadcrumb-list li::after {
-  content: " » ";
-}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
-* General layout
-*/
-.wrap-all {
-  background-color: #d3d0d0;
-}
-.outer-wrap {
-  width: 100%;
-}
-.inner-wrap {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fcfafa;
-}
-.right {
-  float: right;
-}
-/**
-*   Main and sidebars layout
-*/
-.region-main {
-  width: 70%;
-  margin-left: 10%;
-}
-.region-main.has-sidebar {
-  margin-left: 0;
-}
-.region-main.has-sidebar-left.has-sidebar-right {
-  width: 60%;
-}
-.inner-wrap-main {
-  padding: 40px 0;
-}
-.region-sidebar-left,
-.region-sidebar-right {
-  width: 30%;
-}
-.region-sidebar-left.has-sidebar-right,
-.region-sidebar-right.has-sidebar-left {
-  width: 20%;
-}
-.region-sidebar-left,
-.region-sidebar-right,
-.region-main {
-  float: left;
-  padding: 30px;
-}
-.wrap-sidebar .block h4 {
-  border-top: 1px solid #ccc;
-  background-image: linear-gradient(to right, #fff, #ccc);
-}
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
-* General layout
-*/
-.outer-wrap::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.inner-wrap {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #5fafd4;
-}
-.inner-wrap::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.inner-wrap-main {
-  background-image: linear-gradient(to bottom, #5fafd4, #299ed4);
-}
-/**
-* Flash layout
-*/
-.inner-wrap-flash {
-  max-width: 800px;
-}
-/**
-* Header layout
-*/
-.outer-wrap-header::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.inner-wrap-header {
-  max-width: 100%;
-  background-color: #3a3a39;
-  color: #fcfafa;
-}
-.region-header-col-1,
-.region-header-col-3 {
-  width: 20%;
-  float: left;
-}
-.region-header-col-2 {
-  width: 60%;
-  float: left;
-  text-align: center;
-}
-/**
-* Footer layout
-*/
-.outer-wrap-footer,
-.inner-wrap-footer {
-  background: linear-gradient(0deg, #171717 0%, #3d3d3d 100%);
-  color: azure;
-}
-/**
- * Layout flash image.
- */
-@media screen and (max-width: 1920px) {
-  .inner-wrap-flash {
-    max-width: 100%;
-  }
-}
-/**
- * Layout site-logo.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
-/**
-* Navbar
-*/
-@media screen and (max-width: 1020px) {
-  .rm-desktop a {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-}
-@media screen and (max-width: 980px) {
-  .region-header-col-3 {
-    width: 10%;
-    height: 10px;
-  }
-  .region-header-col-2 {
-    width: 65%;
-  }
-  .region-header-col-1 {
-    width: 25%;
-  }
-}
-@media screen and (max-width: 795px) {
-  .rm-desktop {
-    display: none;
-  }
-  .region-header-col-2 {
-    width: 0;
-  }
-  .region-header-col-1 {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 640px) {
-  .inner-wrap-main .row {
-    display: flex;
-    flex-direction: column;
-  }
-  .has-sidebar div {
-    text-align: center;
-  }
-  .wrap-sidebar {
-    width: 100%;
-  }
-  .has-sidebar ul {
-    padding: 0;
-  }
-  .region-main {
-    width: 100%;
-    padding: 5%;
-    margin: 0;
-  }
-}
-/**
-*   Footer
-*/
-@media screen and (max-width: 500px) {
-  .footer-column-wrapper {
-    flex-direction: column;
-  }
-  .footer-column {
-    padding-right: 0;
-  }
-  .footer-column-1,
-  .footer-column-2 {
-    border-right: none;
-  }
-}
-@media screen and (max-width: 470px) {
-  .region-main {
-    padding: 0;
-  }
-  fieldset {
-    padding: 0;
-  }
-}
-/**
-*   Responsive navbar
-*/
-@media screen and (min-width: 796px) {
-  .rm-small-wrapper {
-    display: none;
-  }
-}
 /**
  * Show off the regions used in the website, to ease styling.
  */
