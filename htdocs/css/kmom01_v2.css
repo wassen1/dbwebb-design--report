@@ -96,9 +96,6 @@ img {
   filter: grayscale(60%);
   -webkit-filter: grayscale(60%);
 }
-ul {
-  padding-left: 1.5em;
-}
 blockquote {
   border-left: 4px solid #b4b1b1;
   padding-left: 1em;

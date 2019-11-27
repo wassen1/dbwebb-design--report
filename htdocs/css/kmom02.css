@@ -5038,9 +5038,6 @@ img {
   filter: grayscale(60%);
   -webkit-filter: grayscale(60%);
 }
-ul {
-  padding-left: 1.5em;
-}
 blockquote {
   border-left: 4px solid #b4b1b1;
   padding-left: 1em;
@@ -5171,13 +5168,6 @@ figure.figure.right {
   background-color: #fcfafa;
   color: black;
 }
-.region-flash img {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
 /**
  * Style for sidebar.
  */
@@ -5186,6 +5176,14 @@ figure.figure.right {
   list-style-type: none;
   padding-top: 15px;
 }
+.region-sidebar-left,
+.region-sidebar-right {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 /**
  * Style for footer.
  */
@@ -5193,22 +5191,30 @@ figure.figure.right {
 .inner-wrap-footer {
   padding: 10px 0 10px 0;
 }
-.region-footer > .block {
-  padding-top: 30px;
-  width: 100%;
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.outer-wrap-footer,
+.inner-wrap-footer {
+  background: linear-gradient(0deg, #171717 0%, #3d3d3d 100%);
+  color: azure;
+}
+.site-footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
   text-align: center;
 }
 .region-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   color: #5fafd4;
 }
 .footer-column-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
   border-bottom: 1px solid #666;
   padding-bottom: 20px;
   margin-bottom: 10px;
@@ -5218,13 +5224,6 @@ figure.figure.right {
 }
 .region-footer a:hover {
   color: greenyellow;
-}
-.footer-column-x {
-  padding: 20px;
-}
-.footer-column {
-  flex-grow: 1;
-  padding-right: 30px;
 }
 .footer-column-1,
 .footer-column-2 {
@@ -5239,6 +5238,13 @@ figure.figure.right {
 }
 .breadcrumb-list li::after {
   content: " » ";
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer

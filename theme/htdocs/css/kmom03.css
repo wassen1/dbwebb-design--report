@@ -5043,14 +5043,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-.region-sidebar-left,
-.region-sidebar-right {
-  display: inline;
-  float: left;
-  width: 23.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
 .wrap-sidebar .block h4 {
   border-top: 1px solid #ccc;
   background-image: linear-gradient(to right, #fff, #ccc);
@@ -5104,18 +5096,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
 * Footer layout
 */
-.footer-column {
-  display: inline;
-  float: left;
-  width: 32.29166667%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.outer-wrap-footer,
-.inner-wrap-footer {
-  background: linear-gradient(0deg, #171717 0%, #3d3d3d 100%);
-  color: azure;
-}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -5195,9 +5175,6 @@ img {
   filter: grayscale(60%);
   -webkit-filter: grayscale(60%);
 }
-ul {
-  padding-left: 1.5em;
-}
 blockquote {
   border-left: 4px solid #b4b1b1;
   padding-left: 1em;
@@ -5256,7 +5233,10 @@ td {
   background-color: #fcfafa;
   color: black;
 }
-.region-flash img {
+/**
+ * Style for flash.
+ */
+.region-flash {
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5266,9 +5246,81 @@ td {
 /**
  * Style for sidebar.
  */
+/* Sidebar left */
+.region-sidebar-left li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.region-sidebar-left,
+.region-sidebar-right {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+/**
+ * Style for footer.
+ */
+/* Footer */
+.inner-wrap-footer {
+  padding: 10px 0 10px 0;
+}
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.outer-wrap-footer,
+.inner-wrap-footer {
+  background: linear-gradient(0deg, #171717 0%, #3d3d3d 100%);
+  color: azure;
+}
+.site-footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  text-align: center;
+}
+.region-footer {
+  color: #5fafd4;
+}
+.footer-column-wrapper {
+  border-bottom: 1px solid #666;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.region-footer a {
+  color: inherit;
+}
+.region-footer a:hover {
+  color: greenyellow;
+}
+.footer-column-1,
+.footer-column-2 {
+  border-right: 1px solid #666;
+}
 /**
  * Style for breadcrumb.
  */
+/* Breadcrumb*/
+.breadcrumb-list li {
+  display: inline;
+}
+.breadcrumb-list li::after {
+  content: " » ";
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
