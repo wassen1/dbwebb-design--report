@@ -16,15 +16,7 @@
     margin-bottom: 12px;
 }
 
-.vgrid .inner-wrap {
-    @gridImage: "../img/grid_24x30x10-nomargin.png";
-    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
-    #desinax-vgrid.showGrid(@gridImage, 1100px);
 
-    &.inner-wrap-header {
-        #desinax-vgrid.showGrid(@gridImage);
-    }
-}
 
 .wrap-all {
     background-color: rgb(211, 208, 208);
@@ -34,7 +26,7 @@
     #desinax-vgrid.column(16);
     margin-left: 10%;
     &.has-sidebar {
-        margin-left: 0;
+        // margin-left: 0;
     }
     &.has-sidebar-left.has-sidebar-right {
         #desinax-vgrid.column(14);

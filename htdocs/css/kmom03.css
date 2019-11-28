@@ -1,18 +1,18 @@
 /*!
- * Stylesheet for design kmom03.
- *
- * This stylesheet is for the design course and kmom03 where we use LESS.
- */
+* Stylesheet for design kmom03.
+*
+* This stylesheet is for the design course and kmom03 where we use LESS.
+*/
 /**
- * Import mixins.
- */
+* Import mixins.
+*/
 /**
  * A small clearfix:
  * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
  */
 /**
- * Normalize and reset the style.
- */
+* Normalize and reset the style.
+*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -319,8 +319,8 @@ template {
   display: none;
 }
 /**
- * Font Awesome.
- */
+* Font Awesome.
+*/
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -4960,8 +4960,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Import the typographic grid.
- */
+* Import the typographic grid.
+*/
 /**
  * Typographic font families to choose from.
  */
@@ -4994,6 +4994,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   /**
      * Enable all default typographic elements.
      */
+}
+.hgrid .inner-wrap {
+  background-image: url("../img/magic-number-24px.png");
 }
 /**
 * Import the vertical grid.
@@ -5048,24 +5051,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
   clear: both;
 }
-.vgrid .inner-wrap {
-  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
-  background-size: 100% auto;
-}
-@media (min-width: 1100px) {
-  .vgrid .inner-wrap {
-    background-size: 1100px auto;
-  }
-}
-.vgrid .inner-wrap.inner-wrap-header {
-  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
-  background-size: 100% auto;
-}
-@media (min-width: 100%) {
-  .vgrid .inner-wrap.inner-wrap-header {
-    background-size: 100% auto;
-  }
-}
 .wrap-all {
   background-color: #d3d0d0;
 }
@@ -5076,9 +5061,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 10%;
-}
-.region-main.has-sidebar {
-  margin-left: 0;
 }
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
@@ -5151,9 +5133,27 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-right: 0.52083333%;
   text-align: center;
 }
+.vgrid .inner-wrap {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 1100px) {
+  .vgrid .inner-wrap {
+    background-size: 1100px auto;
+  }
+}
+.vgrid .inner-wrap.inner-wrap-header {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 100%) {
+  .vgrid .inner-wrap.inner-wrap-header {
+    background-size: 100% auto;
+  }
+}
 /**
- * Base style to affect HTML elements on a general scale.
- */
+* Base style to affect HTML elements on a general scale.
+*/
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -5174,7 +5174,7 @@ body {
   background-color: #ddd;
 }
 body {
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -5182,7 +5182,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5306,7 +5306,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "monospace";
+  font-family: "Courier New", Courier, monospace;
 }
 code,
 samp {
@@ -5460,15 +5460,15 @@ hr::after {
   padding: 0 0.25em;
   background-color: #fff;
 }
-.hgrid .inner-wrap {
-  background-image: url("../img/magic-number-24px.png");
-}
 div {
   display: block;
 }
 select {
-  margin: 1em 0;
-  width: 100%;
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 fieldset {
   padding: 20px;
@@ -5484,9 +5484,6 @@ img {
 }
 blockquote {
   border-left: 4px solid #b4b1b1;
-  padding-left: 1em;
-  margin-left: 0;
-  margin-bottom: 24px;
 }
 table {
   border: 1px solid aliceblue;
@@ -5508,14 +5505,14 @@ td {
   }
 }
 /**
- * Style for byline.
- */
+* Style for byline.
+*/
 /**
- * Style for flashmessage.
- */
+* Style for flashmessage.
+*/
 /**
- * Style for header.
- */
+* Style for header.
+*/
 /**
 *   Style for header.
 */
@@ -5541,8 +5538,8 @@ td {
   color: black;
 }
 /**
- * Style for flash.
- */
+* Style for flash.
+*/
 .region-flash {
   display: inline;
   float: left;
@@ -5551,8 +5548,8 @@ td {
   margin-right: 0.52083333%;
 }
 /**
- * Style for sidebar.
- */
+* Style for sidebar.
+*/
 /* Sidebar left */
 .region-sidebar-left li {
   list-style-type: none;
@@ -5566,8 +5563,8 @@ td {
   margin-right: 0.52083333%;
 }
 /**
- * Style for footer.
- */
+* Style for footer.
+*/
 /* Footer */
 .inner-wrap-footer {
   padding: 10px 0 10px 0;
@@ -5611,8 +5608,8 @@ td {
   border-right: 1px solid #666;
 }
 /**
- * Style for breadcrumb.
- */
+* Style for breadcrumb.
+*/
 /* Breadcrumb*/
 .breadcrumb-list li {
   display: inline;
@@ -5628,9 +5625,9 @@ td {
   margin-right: 0.52083333%;
 }
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
 /**
  * Show off the regions used in the website, to ease styling.
  */
@@ -5663,5 +5660,5 @@ td {
   color: #111;
 }
 /**
- * My own settings, not currently in their own module.
- */
+* My own settings, not currently in their own module.
+*/

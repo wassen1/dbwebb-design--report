@@ -5079,6 +5079,33 @@ figure.figure.right {
  * Style for header.
  */
 /**
+*   Style for header.
+*/
+.my-navbar {
+  padding-top: 15px;
+}
+.my-navbar a {
+  text-decoration: none;
+}
+.my-navbar a:visited {
+  color: inherit;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text a {
+  color: #5fafd4;
+  text-decoration: none;
+  font-size: 42px;
+}
+.rm-desktop ul {
+  background-color: #fcfafa;
+  color: black;
+}
+/**
+ * Style for sidebar.
+ */
+/**
  * Fluid and Responsive Vertical Grid
  */
 /**
@@ -5107,33 +5134,6 @@ figure.figure.right {
      * Pull a column right @offset columns.
      */
 }
-/**
-*   Style for header.
-*/
-.my-navbar {
-  padding-top: 15px;
-}
-.my-navbar a {
-  text-decoration: none;
-}
-.my-navbar a:visited {
-  color: inherit;
-}
-.site-logo {
-  display: none;
-}
-.site-logo-text a {
-  color: #5fafd4;
-  text-decoration: none;
-  font-size: 42px;
-}
-.rm-desktop ul {
-  background-color: #fcfafa;
-  color: black;
-}
-/**
- * Style for sidebar.
- */
 /* Sidebar left */
 .region-sidebar-left li {
   list-style-type: none;

@@ -35,63 +35,13 @@ body {
 // Activate grid and affect all typographic elements
 #desinax-hgrid.activateDefaultTypography();
 
-// Show the grid
-.hgrid .inner-wrap {
-    @gridImage: "../img/magic-number-@{magicNumber}.png";
-    #desinax-hgrid.showGrid(@gridImage);
-}
-
-// h1,
-// h2,
-// h4 {
-//     margin-left: 0.2rem;
-// }
-
-// h1 {
-// 	font-size: 2.375em;
-// 	line-height: 1.26315789;
-// 	font-weight: 400;
-// 	border-bottom: 1px solid #666;
-// 	margin-bottom: 23px;
-// }
-
-// h2 {
-// 	font-size: 1.875em;
-// 	line-height: 1.6;
-// 	font-weight: 400;
-// 	margin-top: 48px;
-// 	margin-bottom: 23px;
-// 	border-bottom: 1px solid rgb(173, 171, 171);
-// }
-
-// h3 {
-// 	font-size: 1.375em;
-// 	line-height: 1.09090909;
-// 	font-weight: 400;
-// 	margin-top: 48px;
-// 	margin-bottom: 23px;
-// 	border-bottom: 1px solid #EEE;
-// }
-
-// h4 {
-// 	line-height: 1.2;
-// 	margin-bottom: 0.6rem;
-// }
-
-// p {
-// 	// margin: 1em 0;
-// 	line-height: 1.4;
-// 	font-size: 1em;
-// 	margin-bottom: 1.4rem;
-// }
-
 div {
     display: block;
 }
 
 select {
-	margin: 1em 0;
-	width: 100%;
+	// margin: 1em 0;
+	#desinax-vgrid.column(12);
 }
 
 fieldset {
@@ -116,9 +66,9 @@ ul {
 
 blockquote {
 	border-left: 4px solid rgb(180, 177, 177);
-	padding-left: 1em;
-	margin-left: 0;
-	margin-bottom: 24px;
+	// padding-left: 1em;
+	// margin-left: 0;
+	// margin-bottom: 24px;
 }
 
 table {

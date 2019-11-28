@@ -1,28 +1,28 @@
 /*!
- * Stylesheet for design kmom03.
- *
- * This stylesheet is for the design course and kmom03 where we use LESS.
- */
- /**
- * Import mixins.
- */
- @import "mixin/clearfix.less";
+* Stylesheet for design kmom03.
+*
+* This stylesheet is for the design course and kmom03 where we use LESS.
+*/
+/**
+* Import mixins.
+*/
+@import "mixin/clearfix.less";
 
 .clearfix() {
     #design-mixin.clearfix();
 }
 
- /**
- * Normalize and reset the style.
- */
+/**
+* Normalize and reset the style.
+*/
 @import "normalize.css/normalize.less";
 
 /**
- * Font Awesome.
- */
- @import "@fortawesome/fontawesome-free/less/fontawesome.less";
- @import "@fortawesome/fontawesome-free/less/solid.less";
- @import "@fortawesome/fontawesome-free/less/brands.less";
+* Font Awesome.
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
 
 
 /**
@@ -31,10 +31,16 @@
 @import "@desinax/responsive-menu/less/responsive-menu.less";
 
 /**
- * Import the typographic grid.
- */
- @import "@desinax/typographic-grid/less/typography-font-families.less";
- @import "@desinax/typographic-grid/less/typography-defaults.less";
+* Import the typographic grid.
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+ // Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
 
 /**
 * Import the vertical grid.
@@ -42,59 +48,61 @@
 @import "@desinax/vertical-grid/less/grid.less";
 @import "layout/vgrid.less";
 
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
 /**
- * Base style to affect HTML elements on a general scale.
- */
+* Base style to affect HTML elements on a general scale.
+*/
 // @import "base/base.less";
 @import "base/base_kmom03.less";
 
 /**
- * Style for byline.
- */
+* Style for byline.
+*/
 //  @import "module/byline.less";
 
- /**
- * Style for flashmessage.
- */
+/**
+* Style for flashmessage.
+*/
 //  @import "module/flashmessage.less";
 
- /**
- * Style for header.
- */
- @import "module/header.less";
-
- /**
- * Style for flash.
- */
- @import "module/flash.less";
-
- /**
- * Style for sidebar.
- */
- @import "module/sidebar.less";
-
- /**
- * Style for footer.
- */
- @import "module/footer.less";
-
- /**
- * Style for breadcrumb.
- */
- @import "module/breadcrumb.less";
-
-
-// // Default grid, change to fit your requirements.
-// @columnWidth:   30;
-// @gutterWidth:   10;
-// @columns:       24;
-// @gridType:      "float"; // "flex"
-
+/**
+* Style for header.
+*/
+@import "module/header.less";
 
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
+* Style for flash.
+*/
+@import "module/flash.less";
+
+/**
+* Style for sidebar.
+*/
+@import "module/sidebar.less";
+
+/**
+* Style for footer.
+*/
+@import "module/footer.less";
+
+/**
+* Style for breadcrumb.
+*/
+@import "module/breadcrumb.less";
+
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
 // @import "layout/layout.less";
 // @import "layout/layout_kmom02.less";
 // @import "layout/responsive.less";
@@ -103,7 +111,17 @@
 
 
 /**
- * My own settings, not currently in their own module.
- */
+* My own settings, not currently in their own module.
+*/
 @bgColorHtml: #333;
 @bgColorBody: #ddd;
+
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+// Set font family to use
+@fontFamilyHeadings:  @fontFamilyCambria;
+@fontFamilyBody:      @fontFamilyCalibri;
+@fontFamilyCode:      @fontFamilyCourier;
