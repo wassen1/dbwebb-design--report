@@ -1,7 +1,7 @@
 /*!
  * Stylesheet for design kmom03.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom03 where we use LESS.
  */
  /**
  * Import mixins.
@@ -31,6 +31,12 @@
 @import "@desinax/responsive-menu/less/responsive-menu.less";
 
 /**
+ * Import the typographic grid.
+ */
+ @import "@desinax/typographic-grid/less/typography-font-families.less";
+ @import "@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
 * Import the vertical grid.
 */
 @import "@desinax/vertical-grid/less/grid.less";
@@ -39,7 +45,9 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@import "base/base.less";
+// @import "base/base.less";
+@import "base/base_kmom03.less";
+
 /**
  * Style for byline.
  */

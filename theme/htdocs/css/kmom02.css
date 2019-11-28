@@ -4982,43 +4982,6 @@ body {
   background-color: #ddd;
   font: 100.01%/1 serif;
 }
-h1,
-h2,
-h4 {
-  margin-left: 0.2rem;
-}
-h1 {
-  font-size: 2.375em;
-  line-height: 1.26315789;
-  font-weight: 400;
-  border-bottom: 1px solid #666;
-  margin-bottom: 23px;
-}
-h2 {
-  font-size: 1.875em;
-  line-height: 1.6;
-  font-weight: 400;
-  margin-top: 48px;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #adabab;
-}
-h3 {
-  font-size: 1.375em;
-  line-height: 1.09090909;
-  font-weight: 400;
-  margin-top: 48px;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
-}
-h4 {
-  line-height: 1.2;
-  margin-bottom: 0.6rem;
-}
-p {
-  line-height: 1.4;
-  font-size: 1em;
-  margin-bottom: 1.4rem;
-}
 div {
   display: block;
 }
@@ -5174,7 +5137,6 @@ figure.figure.right {
 /* Sidebar left */
 .region-sidebar-left li {
   list-style-type: none;
-  padding-top: 15px;
 }
 .region-sidebar-left,
 .region-sidebar-right {
@@ -5278,26 +5240,12 @@ figure.figure.right {
 /**
 *   Main and sidebars layout
 */
-.region-main {
-  width: 70%;
-  margin-left: 10%;
-}
-.region-main.has-sidebar {
-  margin-left: 0;
-}
-.region-main.has-sidebar-left.has-sidebar-right {
-  width: 60%;
-}
 .inner-wrap-main {
   padding: 40px 0;
 }
 .region-sidebar-left,
 .region-sidebar-right {
   width: 30%;
-}
-.region-sidebar-left.has-sidebar-right,
-.region-sidebar-right.has-sidebar-left {
-  width: 20%;
 }
 .region-sidebar-left,
 .region-sidebar-right,
