@@ -5138,14 +5138,6 @@ figure.figure.right {
 .region-sidebar-left li {
   list-style-type: none;
 }
-.region-sidebar-left,
-.region-sidebar-right {
-  display: inline;
-  float: left;
-  width: 23.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
 /**
  * Style for footer.
  */
