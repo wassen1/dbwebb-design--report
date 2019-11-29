@@ -54,9 +54,6 @@
 /**
 *   Main and sidebars layout
 */
-// .region-main {
-//     #desinax-vgrid.column(18);
-// }
 
 .inner-wrap-main {
     // padding: 40px 0;
@@ -66,6 +63,37 @@
 	background-image: linear-gradient(to right,#fff,#ccc);
 }
 
+/**
+* Responsive 1, 2, 3
+*/
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+        // #desinax-vgrid.push(0);
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+    .region-sidebar-left {
+	    #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-right {
+        // display: none;
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+}
 
 /**
 * General layout
