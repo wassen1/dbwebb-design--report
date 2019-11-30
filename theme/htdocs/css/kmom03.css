@@ -5542,7 +5542,6 @@ th {
   padding-right: 10px;
 }
 img {
-  max-width: 100%;
   filter: grayscale(60%);
   -webkit-filter: grayscale(60%);
 }
@@ -5572,6 +5571,38 @@ td {
 /**
 * Style for byline.
 */
+/**
+ * Byline style.
+ */
+.byline {
+  background-color: #fff;
+  overflow: auto;
+  /* clear fix to make div span all elements */
+  border: 1px solid #e2e1e1;
+  border-radius: 2px;
+  max-width: 400px;
+  margin-bottom: 50px;
+}
+.byline-title {
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 1em;
+}
+.byline-slogan {
+  display: block;
+  padding-left: 10px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+.byline img {
+  height: 70px;
+  width: 70px;
+}
+.byline .right {
+  margin-left: 30px;
+  float: right;
+}
 /**
 * Style for flashmessage.
 */
@@ -5605,7 +5636,7 @@ td {
 /**
 * Style for flash.
 */
-.region-flash {
+.region-flash img {
   display: inline;
   float: left;
   width: 98.95833333%;

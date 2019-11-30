@@ -18,13 +18,13 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och sidan är uppbygd med ett flat file content ramverk som heter *Anax*.
 
-[FIGURE src="image/me-small.jpg?w=300" class="right" caption="Bild på mig vid havet."]
-
 *Hej!*
 
 Kul att du har hittat hit. Detta är en sida som är skapad för kursen **Teknisk webbdesign och användbarhet** vid Blekinge Tekniska Högskola.
 
 ## Lite om mig ##
+
+[FIGURE src="image/me-small.jpg?w=300" class="right" caption="Bild på mig vid havet."]
 
 Jag har intresserat mig för programmering sedan 2017. Det började med att vi startade en dataklubb tillsammans med några vänner för att förkovra oss inom datorer och programmering.
 

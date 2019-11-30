@@ -5039,16 +5039,13 @@ td {
   border: 1px solid #e2e1e1;
   border-radius: 2px;
   max-width: 400px;
-  margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 10px;
 }
 .byline-title {
   display: block;
   padding-top: 10px;
   padding-left: 10px;
   font-size: 1em;
-  overflow: auto;
 }
 .byline-slogan {
   display: block;
@@ -5060,8 +5057,9 @@ td {
   height: 70px;
   width: 70px;
 }
-figure.figure.right {
+.byline .right {
   margin-left: 30px;
+  float: right;
 }
 /**
  * Style for flashmessage.
