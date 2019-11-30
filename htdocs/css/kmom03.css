@@ -5238,7 +5238,7 @@ body {
   background-color: #ddd;
 }
 body {
-  font: 16px/1.5 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -5246,7 +5246,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
