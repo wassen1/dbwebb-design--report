@@ -1,111 +1,34 @@
 /**
- * Layout flash image.
- */
-
- @media screen and (max-width: 1920px) {
-    .inner-wrap-flash {
-        max-width: 100%;
-    }
-}
-
-/**
- * Layout site-logo.
- */
-
-@media screen and (max-width: 1500px) {
-    .site-logo {
-        display: none;
-    }
-}
-
-
-/**
-* Navbar
+* Import the vertical grid.
 */
-@media screen and (max-width: 1020px) {
-    .rm-desktop a {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
-}
+@import "@desinax/vertical-grid/less/grid.less";
 
-@media screen and (max-width: 980px) {
-    .region-header-col-3 {
-        width: 10%;
-        height: 10px;
-    }
-    .region-header-col-2 {
-        width: 65%;
-    }
-    .region-header-col-1 {
-        width: 25%;
-    }
-}
-
-@media screen and (max-width: 795px) {
-    .rm-desktop {
-        display: none;
-    }
-    .region-header-col-2 {
-        width: 0;
-    }
-    .region-header-col-1 {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .inner-wrap-main .row {
-        display: flex;
-        flex-direction: column;
-    }
-    .has-sidebar div {
-        text-align: center;
-    }
-    .wrap-sidebar {
-        width: 100%;
-    }
-    .has-sidebar ul {
-        padding: 0;
-    }
+/**
+* Responsive 1, 2, 3
+*/
+@media screen and (max-width: 1000px) {
     .region-main {
-        width: 100%;
-        padding: 5%;
-        margin: 0;
+        #desinax-vgrid.column(@columns);
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+    .region-sidebar-left {
+	    #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
     }
 }
 
-/**
-*   Footer
-*/
-@media screen and (max-width: 500px) {
-    .footer-column-wrapper {
-        flex-direction: column;
-    }
-    .footer-column {
-        padding-right: 0;
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
     }
 
-    .footer-column-1,
-    .footer-column-2 {
-        border-right: none;
-    }
-}
-
-@media screen and (max-width: 470px) {
-    .region-main {
-        padding: 0;
-    }
-    fieldset {
-        padding: 0;
-    }
-}
-
-/**
-*   Responsive navbar
-*/
-@media screen and (min-width: 796px) {
-    .rm-small-wrapper {
-        display: none;
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
     }
 }

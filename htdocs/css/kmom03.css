@@ -5105,56 +5105,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-image: linear-gradient(to right, #fff, #ccc);
 }
 /**
-* Responsive 1, 2, 3
-*/
-@media screen and (max-width: 1000px) {
-  .region-main {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-main.has-sidebar-left.has-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-sidebar-left {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-sidebar-left.has-sidebar-right,
-  .region-sidebar-right.has-sidebar-left {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-}
-@media screen and (max-width: 850px) {
-  .region-main.has-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-right: 0.52083333%;
-    margin-left: 0.52083333%;
-  }
-}
-/**
 * General layout
 */
 .outer-wrap::after {
@@ -5196,6 +5146,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   text-align: center;
+}
+/**
+*   Flash layout
+*/
+.inner-wrap-flash {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5569,6 +5527,15 @@ td {
   }
 }
 /**
+* Style for main.
+*/
+.previous {
+  float: left;
+}
+.next {
+  float: right;
+}
+/**
 * Style for byline.
 */
 /**
@@ -5604,9 +5571,6 @@ td {
   float: right;
 }
 /**
-* Style for flashmessage.
-*/
-/**
 * Style for header.
 */
 /**
@@ -5632,6 +5596,23 @@ td {
 .rm-desktop ul {
   background-color: #fcfafa;
   color: black;
+}
+/**
+* Style for breadcrumb.
+*/
+/* Breadcrumb*/
+.breadcrumb-list li {
+  display: inline;
+}
+.breadcrumb-list li::after {
+  content: " » ";
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /**
 * Style for flash.
@@ -5696,26 +5677,62 @@ td {
   border-right: 1px solid #666;
 }
 /**
-* Style for breadcrumb.
-*/
-/* Breadcrumb*/
-.breadcrumb-list li {
-  display: inline;
-}
-.breadcrumb-list li::after {
-  content: " » ";
-}
-.region-breadcrumb {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-/**
 * Layout style for general structure of header, navbar, main, footer
 * and other regions of the page including route specific styles.
 */
+/**
+* Import the vertical grid.
+*/
+/**
+* Responsive 1, 2, 3
+*/
+@media screen and (max-width: 1000px) {
+  .region-main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left.has-sidebar-right,
+  .region-sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .region-main.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-right: 0.52083333%;
+    margin-left: 0.52083333%;
+  }
+}
 /**
  * Show off the regions used in the website, to ease styling.
  */
