@@ -5455,6 +5455,15 @@ td {
   background-color: #ddd;
   color: #333;
 }
+.rm-mobile {
+  color: red;
+}
+.rm-mobile a:visited {
+  color: red;
+}
+.rm-mobile a:hover {
+  color: #ff3333;
+}
 /**
  * Style for sidebar.
  */

@@ -27,3 +27,13 @@
 	background-color: @bgColorBody;
 	color: @colorBody;
 }
+
+.rm-mobile {
+    color: @accentFontColor;
+    & a:visited {
+        color: @accentFontColor;
+    }
+    & a:hover {
+        color: lighten(@accentFontColor, 10%);
+    }
+}

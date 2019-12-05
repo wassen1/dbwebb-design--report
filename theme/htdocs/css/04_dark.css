@@ -4923,7 +4923,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #131313;
+  background-color: #30352a;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */
@@ -4940,7 +4940,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-max .rm-mobile .rm-submenu-button {
   float: right;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-  background-color: #444;
+  background-color: #161913;
   padding: 8px 24px;
   margin-right: 8px;
   margin-top: 10px;
@@ -4953,7 +4953,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-mobile .rm-submenu-button:hover {
   text-decoration: none;
-  background-color: #ccc;
+  background-color: #161913;
 }
 .rm-max .rm-mobile li ul {
   padding-left: 8px;
@@ -5644,6 +5644,15 @@ td {
 .rm-desktop ul {
   background-color: #4A5242;
   color: #E5FDCC;
+}
+.rm-mobile {
+  color: #D7FDAE;
+}
+.rm-mobile a:visited {
+  color: #D7FDAE;
+}
+.rm-mobile a:hover {
+  color: #f0fee0;
 }
 /**
 * Style for breadcrumb.
