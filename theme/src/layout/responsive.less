@@ -12,7 +12,7 @@
 /**
 * Responsive 1, 2, 3
 */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1160px) {
     .region-main {
         #desinax-vgrid.column(@columns);
         &.has-sidebar-left.has-sidebar-right {
@@ -30,7 +30,7 @@
         display: none;
     }
     .region-header-col-1 {
-        #desinax-vgrid.column(3);
+        #desinax-vgrid.column(4);
     }
     .region-header-col-3 {
         #desinax-vgrid.column(3);
@@ -41,6 +41,18 @@
     }
     .site-logo-text a {
         font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .region-header-col-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .region-header-col-2 {
+        display: none;
     }
 }
 
@@ -58,17 +70,6 @@
     }
 }
 
-@media screen and (min-width: 800px) {
-    .region-header-col-3 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .region-header-col-2 {
-        display: none;
-    }
-}
 @media screen and (max-width: 530px) {
     .columns.footer-column-wrapper {
         #desinax-vgrid.column(@columns);
@@ -82,5 +83,14 @@
     .footer-column-2 {
         border-right: none;
     }
+    .right {
+        float: none;
+    }
 
+}
+
+@media screen and (max-width: 530px) {
+    .byline img {
+        display: none;
+    }
 }

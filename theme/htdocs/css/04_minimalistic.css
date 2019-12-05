@@ -1,5 +1,5 @@
 /*!
-* Stylesheet for design kmom04.
+* Stylesheet for minimalistic theme.
 *
 * This stylesheet is for the design course and kmom04 where we use LESS.
 */
@@ -5515,6 +5515,7 @@ td {
 }
 .right {
   float: right;
+  margin-left: 8px;
 }
 /**
 * Header layout
@@ -5525,6 +5526,13 @@ td {
   max-width: 100%;
   background-color: #D7FDAE;
   color: #4F4F4F;
+}
+.region-header {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5581,12 +5589,13 @@ td {
  * Byline style.
  */
 .byline {
-  background-color: #fff;
+  background-color: #fefffd;
+  color: #4A5242;
   overflow: auto;
   /* clear fix to make div span all elements */
-  border: 1px solid #e2e1e1;
+  border: 1px solid #bffa82;
   border-radius: 2px;
-  max-width: 400px;
+  max-width: 410px;
   margin-bottom: 50px;
 }
 .byline-title {
@@ -5606,7 +5615,7 @@ td {
   width: 70px;
 }
 .byline .right {
-  margin-left: 30px;
+  margin-left: 4%;
   float: right;
 }
 /**
@@ -5780,7 +5789,7 @@ td {
 /**
 * Responsive 1, 2, 3
 */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1160px) {
   .region-main {
     display: inline;
     float: left;
@@ -5816,7 +5825,7 @@ td {
   .region-header-col-1 {
     display: inline;
     float: left;
-    width: 11.45833333%;
+    width: 15.625%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
@@ -5839,6 +5848,16 @@ td {
     font-size: 36px;
   }
 }
+@media screen and (min-width: 950px) {
+  .region-header-col-3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 950px) {
+  .region-header-col-2 {
+    display: none;
+  }
+}
 @media screen and (max-width: 850px) {
   .region-main.has-sidebar-right {
     display: inline;
@@ -5856,16 +5875,6 @@ td {
   }
   fieldset {
     padding: 0;
-  }
-}
-@media screen and (min-width: 800px) {
-  .region-header-col-3 {
-    display: none;
-  }
-}
-@media screen and (max-width: 800px) {
-  .region-header-col-2 {
-    display: none;
   }
 }
 @media screen and (max-width: 530px) {
@@ -5888,6 +5897,14 @@ td {
   .footer-column-1,
   .footer-column-2 {
     border-right: none;
+  }
+  .right {
+    float: none;
+  }
+}
+@media screen and (max-width: 530px) {
+  .byline img {
+    display: none;
   }
 }
 /**

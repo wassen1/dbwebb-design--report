@@ -2,11 +2,12 @@
  * Byline style.
  */
  .byline {
-    background-color: #fff;
+    background-color: lighten(@bgColorBody, 10%);
+    color:  @colorBody;
     overflow: auto; /* clear fix to make div span all elements */
-    border: 1px solid rgb(226, 225, 225);
+    border: 1px solid darken(@bgColorBody, 15%);
     border-radius: 2px;
-    max-width: 400px;
+    max-width: 410px;
     margin-bottom: 50px;
 }
 
@@ -30,6 +31,6 @@
 }
 
 .byline .right {
-    margin-left: 30px;
+    margin-left: 4%;
     float: right;
 }
