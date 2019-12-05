@@ -1,82 +1,109 @@
+@import "@desinax/vertical-grid/less/grid.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@bgColorHtml: green; // #424242;
-@bgColorBody: #ccc;
-@colorBody: #333;
-@fontFamilyBody: serif;
-
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-
-html {
-    overflow-y: scroll;
-	background-color: @bgColorHtml;
-	font-size: 100%;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    color: @colorBody;
-    background-color: @bgColorBody;
-    font: 100.01%/1 @fontFamilyBody;
-}
-
-div {
-    display: block;
-}
-
-select {
-	margin: 1em 0;
-	width: 100%;
-}
-
-fieldset {
-	padding: 20px;
-}
-
-th {
-	text-align: left;
-	padding-right: 10px;
-}
-
-img {
-	max-width: 100%;
-    filter: grayscale(60%);
-    -webkit-filter: grayscale(60%);
-}
-
-blockquote {
-	border-left: 4px solid rgb(180, 177, 177);
-	padding-left: 1em;
-	margin-left: 0;
-	margin-bottom: 24px;
-}
-
-table {
-	border: 1px solid aliceblue;
-	border-collapse: collapse;
-}
-
-tr {
-    border: 1px solid aliceblue;
-}
-
-th {
-	padding: 15px;
-}
-
-td {
-    border: 1px solid aliceblue;
-    padding: 20px ;
-}
-
-@media (min-width: 64em) {
-	html {
-		font-size: 112.5%;
+ @bgColorHtml: green; // #424242;
+ @bgColorBody: #ccc;
+ @colorBody: #333;
+ @accentBgColor: #3B3B39;
+ @accentFontColor: red;
+ // @fontFamilyBody: serif;
+ 
+ * {
+	 box-sizing: border-box;
+	 padding: 0;
+	 margin: 0;
+ }
+ 
+ html {
+	 overflow-y: scroll;
+	 background-color: @bgColorHtml;
+	 font-size: 100%;
+ }
+ 
+ body {
+	 margin: 0;
+	 padding: 0;
+	 color: @colorBody;
+	 background-color: @bgColorBody;
+	 // font: 100.01%/1 @fontFamilyBody;
+ }
+ 
+ // Activate the grid base font
+ body {
+	 #desinax-hgrid.font(@fontSizeBody);
+ }
+ 
+ // Activate grid and affect all typographic elements
+ #desinax-hgrid.activateDefaultTypography();
+ 
+ div {
+	 display: block;
+ }
+ 
+ select {
+	 // margin: 1em 0;
+	 #desinax-vgrid.column(12);
+ }
+ 
+ fieldset {
+	 padding: 20px;
+ }
+ 
+ th {
+	 text-align: left;
+	 padding-right: 10px;
+ }
+ 
+ img {
+	 // max-width: 100%;
+	 filter: grayscale(60%);
+	 -webkit-filter: grayscale(60%);
+ }
+ 
+ ul {
+	& :link {
+		color: @colorBody;
 	}
-}
+	& :visited {
+		color: darken(@colorBody, 40%);
+	}
+	& :hover {
+		color: lighten(@colorBody, 15%);
+	}
+ }
+ 
+ blockquote {
+	 border-left: 4px solid rgb(180, 177, 177);
+	 // padding-left: 1em;
+	 // margin-left: 0;
+	 // margin-bottom: 24px;
+ }
+ 
+ table {
+	 border: 1px solid aliceblue;
+	 border-collapse: collapse;
+	 // #desinax-vgrid.column(@columns);
+ }
+ 
+ 
+ tr {
+	 border: 1px solid aliceblue;
+	 max-width: 100%;
+ }
+ 
+ th {
+	 padding: 15px;
+ }
+ 
+ td {
+	 border: 1px solid aliceblue;
+	 padding: 20px ;
+ }
+ 
+ @media (min-width: 64em) {
+	 html {
+		 font-size: 112.5%;
+	 }
+ }

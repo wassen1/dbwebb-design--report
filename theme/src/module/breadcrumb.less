@@ -11,4 +11,15 @@
 
 .region-breadcrumb {
     #desinax-vgrid.column(@columns);
+    line-height:48px;
+    height:48px;
 }
+
+.region-breadcrumb ul {
+	& :visited {
+		color: @colorBody;
+    }
+    & :hover {
+		color: lighten(@colorBody, 15%);
+	}
+ }

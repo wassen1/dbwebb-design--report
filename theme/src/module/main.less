@@ -1,3 +1,16 @@
+.previous,
+.next {
+    & :link {
+		color: @colorBody;
+	}
+	& :visited {
+		color: @colorBody;
+	}
+	& :hover {
+		color: lighten(@colorBody, 15%);
+	}
+}
+
 .previous {
     float: left;
 }

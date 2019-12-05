@@ -1,8 +1,10 @@
 /*!
-* Stylesheet for design kmom03.
+* Stylesheet for design kmom04.
 *
-* This stylesheet is for the design course and kmom03 where we use LESS.
+* This stylesheet is for the design course and kmom04 where we use LESS.
 */
+
+
 /**
 * Import mixins.
 */
@@ -42,16 +44,18 @@
     #desinax-hgrid.showGrid(@gridImage);
 }
 
+
 /**
 * Import the vertical grid.
 */
 @import "@desinax/vertical-grid/less/grid.less";
 
+
 .vgrid .inner-wrap {
     @gridImage: "../img/grid_24x30x10-nomargin.png";
     //@gridImage: "../../img/grid_12x60x20-nomargin.png";
     #desinax-vgrid.showGrid(@gridImage, 1100px);
-    
+
     &.inner-wrap-header {
         #desinax-vgrid.showGrid(@gridImage);
     }
@@ -60,8 +64,8 @@
 /**
 * Base style to affect HTML elements on a general scale.
 */
+// @import "base/base.less";
 @import "base/base.less";
-@import "base/base_kmom03.less";
 
 @import "layout/vgrid.less";
 
@@ -110,6 +114,12 @@
 @import "layout/regions.less";     // To add style for ?regions
 @import "layout/responsive.less";
 
+
+// /**
+// * Minimalistic style sheet.
+// */
+// @import "module/minimalistic.less";
+
 /**
 *   H scroll bar fix
 */
@@ -121,20 +131,3 @@
     width: 100%;
 }
 
-
-/**
-* My own settings, not currently in their own module.
-*/
-@bgColorHtml: #333;
-@bgColorBody: rgb(95, 175, 212);
-
-
-// Magic number and base fontsize
-@magicNumber:  24px;  // 22px
-@fontSizeBody: 16px;
-
-// Set font family to use
-@fontFamilyHeadings:  @fontFamilyHelveticaNeue;
-// @fontFamilyBody:      @fontFamilyCalibri;
-@fontFamilyBody:      @fontFamilyHelveticaNeue;
-@fontFamilyCode:      @fontFamilyCourier;

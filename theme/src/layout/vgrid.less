@@ -20,7 +20,7 @@
 }
 
 .wrap-all {
-    background-color: rgb(211, 208, 208);
+    background-color: @bgColorHtml;
 }
 
 .region-main {
@@ -56,7 +56,8 @@
 *   Main and sidebars layout
 */
 .wrap-sidebar .block h4 {
-	background-image: linear-gradient(to right,#fff,#ccc);
+    color: @accentFontColor;
+	background-image: linear-gradient(to right, lighten(@accentBgColor, 10%), @accentBgColor);
 }
 
 /**
@@ -68,21 +69,24 @@
 
 .inner-wrap {
     #desinax-vgrid.grid(1100px);
-    background-color: rgb(95, 175, 212);
+    background-color: @bgColorBody;
 }
 
 .inner-wrap-main {
-    background-image: linear-gradient(to bottom, rgb(95, 175, 212), rgb(41, 158, 212));
+    background-color: @bgColorBody;
+}
+
+.right {
+    float: right;
 }
 
 /**
 * Header layout
 */
-
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
-    background-color: rgb(58, 58, 57);
-    color: rgb(252, 250, 250);
+    background-color: @accentBgColor;
+    color: @accentFontColor;
 }
 
 .region-header-col-1,
