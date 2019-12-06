@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap');
-// @import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat:200,400&display=swap');
+
 /**
-* My own settings, not currently in their own module.
+*	Tetrad colors from http://paletton.com
 */
-@bgColorBody: #BDE3FF;
-@bgColorHtml: #0A61A3;
-@accentBgColor: #F09B1D;
-@colorBody: #4A2C00;
-@accentFontColor: #031F35;
+@bgColorBody: #FFF2F1;
+@bgColorHtml: #F6C69D;
+@accentBgColor: #236467;
+@colorBody: #000B0B;
+@accentFontColor: #F6C69D;
+
 @maxBgColor: @bgColorHtml;
 @maxButtonSubmenuBgColor: darken(@maxBgColor, 10%);
 @maxButtonSubmenuHoverBgColor: @maxButtonSubmenuBgColor;
@@ -31,4 +32,14 @@
 img {
 	filter: none;
 	-webkit-filter: none;
+}
+
+.rm-mobile {
+    color: @colorBody;
+    & a:visited {
+        color: @colorBody;
+    }
+    & a:hover {
+        color: lighten(@colorBody, 10%);
+    }
 }
