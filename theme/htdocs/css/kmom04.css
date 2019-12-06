@@ -5815,11 +5815,6 @@ td {
 /**
 * Import the vertical grid.
 */
-@media screen and (max-width: 1100px) {
-  .row {
-    width: 100%;
-  }
-}
 /**
 * Responsive 1, 2, 3
 */
@@ -5880,6 +5875,11 @@ td {
   }
   .site-logo-text a {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .row {
+    width: 100%;
   }
 }
 @media screen and (min-width: 950px) {

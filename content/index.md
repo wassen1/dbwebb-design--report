@@ -16,7 +16,6 @@ views:
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och sidan är uppbygd med ett flat file content ramverk som heter *Anax*.
 
 *Hej!*
 

@@ -4923,7 +4923,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #0A61A3;
+  background-color: #F6C69D;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */
@@ -4940,7 +4940,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-max .rm-mobile .rm-submenu-button {
   float: right;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-  background-color: #074473;
+  background-color: #f2ab6e;
   padding: 8px 24px;
   margin-right: 8px;
   margin-top: 10px;
@@ -4953,7 +4953,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-mobile .rm-submenu-button:hover {
   text-decoration: none;
-  background-color: #074473;
+  background-color: #f2ab6e;
 }
 .rm-max .rm-mobile li ul {
   padding-left: 8px;
@@ -5069,14 +5069,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: #0A61A3;
+  background-color: #F6C69D;
   font-size: 100%;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #4A2C00;
-  background-color: #BDE3FF;
+  color: #000B0B;
+  background-color: #FFF2F1;
   font: 100.01%/1 'Montserrat', sans-serif;
 }
 body {
@@ -5143,7 +5143,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #031F35;
+  border-bottom: 1px solid #F6C69D;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -5388,30 +5388,30 @@ img {
   -webkit-filter: grayscale(60%);
 }
 ul :link {
-  color: #4A2C00;
+  color: #000B0B;
 }
 ul :visited {
   color: #000000;
 }
 ul :hover {
-  color: #975900;
+  color: #005758;
 }
 blockquote {
-  border-left: 4px solid #031F35;
+  border-left: 4px solid #F6C69D;
 }
 table {
-  border: 1px solid #4A2C00;
+  border: 1px solid #000B0B;
   border-collapse: collapse;
 }
 tr {
-  border: 1px solid #4A2C00;
+  border: 1px solid #000B0B;
   max-width: 100%;
 }
 th {
   padding: 15px;
 }
 td {
-  border: 1px solid #4A2C00;
+  border: 1px solid #000B0B;
   padding: 20px ;
 }
 @media (min-width: 64em) {
@@ -5444,7 +5444,7 @@ td {
   clear: both;
 }
 .wrap-all {
-  background-color: #0A61A3;
+  background-color: #F6C69D;
 }
 .region-main {
   display: inline;
@@ -5494,8 +5494,8 @@ td {
 *   Main and sidebars layout
 */
 .wrap-sidebar .block h4 {
-  color: #031F35;
-  background-image: linear-gradient(to right, #f3b04d, #F09B1D);
+  color: #F6C69D;
+  background-image: linear-gradient(to right, #30898d, #236467);
 }
 /**
 * General layout
@@ -5509,10 +5509,10 @@ td {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: #BDE3FF;
+  background-color: #FFF2F1;
 }
 .inner-wrap-main {
-  background-color: #BDE3FF;
+  background-color: #FFF2F1;
 }
 .right {
   float: right;
@@ -5525,8 +5525,8 @@ td {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #F09B1D;
-  color: #031F35;
+  background-color: #236467;
+  color: #F6C69D;
 }
 .region-header {
   display: inline;
@@ -5574,15 +5574,15 @@ td {
 */
 .previous :link,
 .next :link {
-  color: #4A2C00;
+  color: #000B0B;
 }
 .previous :visited,
 .next :visited {
-  color: #4A2C00;
+  color: #000B0B;
 }
 .previous :hover,
 .next :hover {
-  color: #975900;
+  color: #005758;
 }
 .previous {
   float: left;
@@ -5600,11 +5600,11 @@ td {
  * Byline style.
  */
 .byline {
-  background-color: #f0f9ff;
-  color: #4A2C00;
+  background-color: #ffffff;
+  color: #000B0B;
   overflow: auto;
   /* clear fix to make div span all elements */
-  border: 1px solid #71c3ff;
+  border: 1px solid #ffaba4;
   border-radius: 2px;
   max-width: 410px;
   margin-bottom: 50px;
@@ -5648,22 +5648,22 @@ td {
   display: none;
 }
 .site-logo-text a {
-  color: #031F35;
+  color: #F6C69D;
   text-decoration: none;
   font-size: 42px;
 }
 .rm-desktop ul {
-  background-color: #BDE3FF;
-  color: #4A2C00;
+  background-color: #FFF2F1;
+  color: #000B0B;
 }
 .rm-mobile {
-  color: #031F35;
+  color: #F6C69D;
 }
 .rm-mobile a:visited {
-  color: #031F35;
+  color: #F6C69D;
 }
 .rm-mobile a:hover {
-  color: #063b65;
+  color: #fae1cc;
 }
 /**
 * Style for breadcrumb.
@@ -5685,10 +5685,10 @@ td {
   height: 48px;
 }
 .region-breadcrumb ul :visited {
-  color: #4A2C00;
+  color: #000B0B;
 }
 .region-breadcrumb ul :hover {
-  color: #975900;
+  color: #005758;
 }
 /**
 * Style for flash.
@@ -5707,11 +5707,11 @@ td {
 *   Style for flashmessage.
 */
 .inner-wrap-flash-message {
-  background-color: #F09B1D;
+  background-color: #236467;
 }
 .flashmessage.info {
   line-height: 60px;
-  background-color: #F09B1D;
+  background-color: #236467;
   padding-left: 4%;
   padding-right: 4%;
 }
@@ -5745,8 +5745,8 @@ td {
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background: linear-gradient(0deg, #e48e0f 0%, #F09B1D 100%);
-  color: #031F35;
+  background: linear-gradient(0deg, #1d5254 0%, #236467 100%);
+  color: #F6C69D;
 }
 .site-footer {
   display: inline;
@@ -5757,7 +5757,7 @@ td {
   text-align: center;
 }
 .region-footer {
-  color: #031F35;
+  color: #F6C69D;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5765,7 +5765,7 @@ td {
   margin-right: 0.52083333%;
 }
 .footer-column-wrapper {
-  border-bottom: 1px solid #031F35;
+  border-bottom: 1px solid #F6C69D;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5776,11 +5776,11 @@ td {
   color: inherit;
 }
 .region-footer a:hover {
-  color: #0b74c6;
+  color: #ffffff;
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 1px solid #031F35;
+  border-right: 1px solid #F6C69D;
 }
 .footer-column-3 h4 {
   visibility: hidden;
@@ -5823,11 +5823,6 @@ td {
 /**
 * Import the vertical grid.
 */
-@media screen and (max-width: 1100px) {
-  .row {
-    width: 100%;
-  }
-}
 /**
 * Responsive 1, 2, 3
 */
@@ -5888,6 +5883,11 @@ td {
   }
   .site-logo-text a {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .row {
+    width: 100%;
   }
 }
 @media screen and (min-width: 950px) {
@@ -5978,9 +5978,18 @@ td {
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
 }
 /**
-* My own settings, not currently in their own module.
+*	Tetrad colors from http://paletton.com
 */
 img {
   filter: none;
   -webkit-filter: none;
+}
+.rm-mobile {
+  color: #000B0B;
+}
+.rm-mobile a:visited {
+  color: #000B0B;
+}
+.rm-mobile a:hover {
+  color: #003e3e;
 }
