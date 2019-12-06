@@ -64,7 +64,6 @@
 /**
 * Base style to affect HTML elements on a general scale.
 */
-// @import "base/base.less";
 @import "base/base.less";
 
 @import "layout/vgrid.less";
@@ -96,6 +95,11 @@
 @import "module/flash.less";
 
 /**
+* Style for flash message.
+*/
+@import "module/flashmessage.less";
+
+/**
 * Style for sidebar.
 */
 @import "module/sidebar.less";
@@ -118,6 +122,7 @@
 *   H scroll bar fix
 */
 .inner-wrap-header .row,
+.inner-wrap-flash-message .row,
 .inner-wrap-flash .row,
 .region-flash img {
     margin-right: 0;

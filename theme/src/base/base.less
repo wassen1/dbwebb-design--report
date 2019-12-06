@@ -3,11 +3,11 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
- @bgColorHtml: green; // #424242;
- @bgColorBody: #ccc;
+ @bgColorHtml: #ccc; // #424242;
+ @bgColorBody: #fff;
  @colorBody: #333;
  @accentBgColor: #3B3B39;
- @accentFontColor: red;
+ @accentFontColor: rgb(255, 166, 0);
  // @fontFamilyBody: serif;
  
 * {
@@ -75,17 +75,17 @@ ul {
 }
 
 blockquote {
-	border-left: 4px solid rgb(180, 177, 177);
+	border-left: 4px solid @accentFontColor;
 }
 
 table {
-	border: 1px solid aliceblue;
+	border: 1px solid @colorBody;
 	border-collapse: collapse;
 }
 
 
 tr {
-	border: 1px solid aliceblue;
+	border: 1px solid @colorBody;
 	max-width: 100%;
 }
 
@@ -94,7 +94,7 @@ th {
 }
 
 td {
-	border: 1px solid aliceblue;
+	border: 1px solid @colorBody;
 	padding: 20px ;
 }
 

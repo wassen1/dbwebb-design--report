@@ -5397,21 +5397,21 @@ ul :hover {
   color: #707c64;
 }
 blockquote {
-  border-left: 4px solid #b4b1b1;
+  border-left: 4px solid #4F4F4F;
 }
 table {
-  border: 1px solid aliceblue;
+  border: 1px solid #4A5242;
   border-collapse: collapse;
 }
 tr {
-  border: 1px solid aliceblue;
+  border: 1px solid #4A5242;
   max-width: 100%;
 }
 th {
   padding: 15px;
 }
 td {
-  border: 1px solid aliceblue;
+  border: 1px solid #4A5242;
   padding: 20px ;
 }
 @media (min-width: 64em) {
@@ -5552,6 +5552,16 @@ td {
   text-align: center;
 }
 /**
+*   Flash message layout
+*/
+.region-flash-message {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+/**
 *   Flash layout
 */
 .inner-wrap-flash {
@@ -5689,6 +5699,28 @@ td {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+/**
+* Style for flash message.
+*/
+/**
+*   Style for flashmessage.
+*/
+.inner-wrap-flash-message {
+  background-color: #D7FDAE;
+}
+.flashmessage.info {
+  line-height: 60px;
+  background-color: #D7FDAE;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.flashmessage.info p {
+  margin-bottom: 0;
+}
+.flashmessage .flashmessage-icon {
+  float: right;
+  font-size: 2.5em;
 }
 /**
 * Style for sidebar.
@@ -5921,6 +5953,7 @@ td {
 *   H scroll bar fix
 */
 .inner-wrap-header .row,
+.inner-wrap-flash-message .row,
 .inner-wrap-flash .row,
 .region-flash img {
   margin-right: 0;

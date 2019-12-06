@@ -5389,21 +5389,21 @@ ul :hover {
   color: #595959;
 }
 blockquote {
-  border-left: 4px solid #b4b1b1;
+  border-left: 4px solid #ffa600;
 }
 table {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   border-collapse: collapse;
 }
 tr {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   max-width: 100%;
 }
 th {
   padding: 15px;
 }
 td {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   padding: 20px ;
 }
 @media (min-width: 64em) {
@@ -5836,7 +5836,7 @@ td {
 *   Main and sidebars layout
 */
 .wrap-sidebar .block h4 {
-  color: red;
+  color: #ffa600;
   background-image: linear-gradient(to right, #555552, #3B3B39);
 }
 /**
@@ -5868,7 +5868,7 @@ td {
   margin-left: auto;
   max-width: 100%;
   background-color: #3B3B39;
-  color: red;
+  color: #ffa600;
 }
 .region-header {
   display: inline;
@@ -5892,6 +5892,16 @@ td {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   text-align: center;
+}
+/**
+*   Flash message layout
+*/
+.region-flash-message {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /**
 *   Flash layout
@@ -5980,7 +5990,7 @@ td {
   display: none;
 }
 .site-logo-text a {
-  color: red;
+  color: #ffa600;
   text-decoration: none;
   font-size: 42px;
 }
@@ -5989,13 +5999,13 @@ td {
   color: #333;
 }
 .rm-mobile {
-  color: red;
+  color: #ffa600;
 }
 .rm-mobile a:visited {
-  color: red;
+  color: #ffa600;
 }
 .rm-mobile a:hover {
-  color: #ff3333;
+  color: #ffb833;
 }
 /**
 * Style for breadcrumb.
@@ -6056,7 +6066,7 @@ td {
 .outer-wrap-footer,
 .inner-wrap-footer {
   background: linear-gradient(0deg, #2e2e2c 0%, #3B3B39 100%);
-  color: red;
+  color: #ffa600;
 }
 .site-footer {
   display: inline;
@@ -6067,7 +6077,7 @@ td {
   text-align: center;
 }
 .region-footer {
-  color: red;
+  color: #ffa600;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -6075,7 +6085,7 @@ td {
   margin-right: 0.52083333%;
 }
 .footer-column-wrapper {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #ffa600;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -6086,11 +6096,11 @@ td {
   color: inherit;
 }
 .region-footer a:hover {
-  color: #ff9999;
+  color: #ffdb99;
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 1px solid red;
+  border-right: 1px solid #ffa600;
 }
 .footer-column-3 h4 {
   visibility: hidden;

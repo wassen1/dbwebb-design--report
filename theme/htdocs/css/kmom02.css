@@ -5359,21 +5359,21 @@ ul :hover {
   color: #595959;
 }
 blockquote {
-  border-left: 4px solid #b4b1b1;
+  border-left: 4px solid #ffa600;
 }
 table {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   border-collapse: collapse;
 }
 tr {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   max-width: 100%;
 }
 th {
   padding: 15px;
 }
 td {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   padding: 20px ;
 }
 @media (min-width: 64em) {
@@ -5423,10 +5423,20 @@ td {
 /**
 *   Style for flashmessage.
 */
-.flashmessage {
-  background-color: #aaceec;
+.inner-wrap-flash-message {
+  background-color: #3B3B39;
 }
-.flashmessage-icon {
+.flashmessage.info {
+  line-height: 60px;
+  background-color: #3B3B39;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.flashmessage.info p {
+  margin-bottom: 0;
+}
+.flashmessage .flashmessage-icon {
+  float: right;
   font-size: 2.5em;
 }
 /**
@@ -5448,7 +5458,7 @@ td {
   display: none;
 }
 .site-logo-text a {
-  color: red;
+  color: #ffa600;
   text-decoration: none;
   font-size: 42px;
 }
@@ -5457,13 +5467,13 @@ td {
   color: #333;
 }
 .rm-mobile {
-  color: red;
+  color: #ffa600;
 }
 .rm-mobile a:visited {
-  color: red;
+  color: #ffa600;
 }
 .rm-mobile a:hover {
-  color: #ff3333;
+  color: #ffb833;
 }
 /**
  * Style for sidebar.
@@ -5489,7 +5499,7 @@ td {
 .outer-wrap-footer,
 .inner-wrap-footer {
   background: linear-gradient(0deg, #2e2e2c 0%, #3B3B39 100%);
-  color: red;
+  color: #ffa600;
 }
 .site-footer {
   display: inline;
@@ -5500,7 +5510,7 @@ td {
   text-align: center;
 }
 .region-footer {
-  color: red;
+  color: #ffa600;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5508,7 +5518,7 @@ td {
   margin-right: 0.52083333%;
 }
 .footer-column-wrapper {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #ffa600;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5519,11 +5529,11 @@ td {
   color: inherit;
 }
 .region-footer a:hover {
-  color: #ff9999;
+  color: #ffdb99;
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 1px solid red;
+  border-right: 1px solid #ffa600;
 }
 .footer-column-3 h4 {
   visibility: hidden;

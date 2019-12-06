@@ -89,14 +89,14 @@
 }
 html {
   overflow-y: scroll;
-  background-color: green;
+  background-color: #ccc;
   font-size: 100%;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #ccc;
+  background-color: #fff;
   font: 100.01%/1 "sans-serif";
 }
 body {
@@ -417,21 +417,21 @@ ul :hover {
   color: #595959;
 }
 blockquote {
-  border-left: 4px solid #b4b1b1;
+  border-left: 4px solid #ffa600;
 }
 table {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   border-collapse: collapse;
 }
 tr {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   max-width: 100%;
 }
 th {
   padding: 15px;
 }
 td {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   padding: 20px ;
 }
 @media (min-width: 64em) {

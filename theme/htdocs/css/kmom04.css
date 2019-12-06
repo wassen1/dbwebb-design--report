@@ -5061,14 +5061,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: green;
+  background-color: #ccc;
   font-size: 100%;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #ccc;
+  background-color: #fff;
   font: 100.01%/1 "sans-serif";
 }
 body {
@@ -5389,21 +5389,21 @@ ul :hover {
   color: #595959;
 }
 blockquote {
-  border-left: 4px solid #b4b1b1;
+  border-left: 4px solid #ffa600;
 }
 table {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   border-collapse: collapse;
 }
 tr {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   max-width: 100%;
 }
 th {
   padding: 15px;
 }
 td {
-  border: 1px solid aliceblue;
+  border: 1px solid #333;
   padding: 20px ;
 }
 @media (min-width: 64em) {
@@ -5436,7 +5436,7 @@ td {
   clear: both;
 }
 .wrap-all {
-  background-color: green;
+  background-color: #ccc;
 }
 .region-main {
   display: inline;
@@ -5486,7 +5486,7 @@ td {
 *   Main and sidebars layout
 */
 .wrap-sidebar .block h4 {
-  color: red;
+  color: #ffa600;
   background-image: linear-gradient(to right, #555552, #3B3B39);
 }
 /**
@@ -5501,10 +5501,10 @@ td {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: #ccc;
+  background-color: #fff;
 }
 .inner-wrap-main {
-  background-color: #ccc;
+  background-color: #fff;
 }
 .right {
   float: right;
@@ -5518,7 +5518,7 @@ td {
   margin-left: auto;
   max-width: 100%;
   background-color: #3B3B39;
-  color: red;
+  color: #ffa600;
 }
 .region-header {
   display: inline;
@@ -5542,6 +5542,16 @@ td {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   text-align: center;
+}
+/**
+*   Flash message layout
+*/
+.region-flash-message {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /**
 *   Flash layout
@@ -5582,11 +5592,11 @@ td {
  * Byline style.
  */
 .byline {
-  background-color: #e6e6e6;
+  background-color: #ffffff;
   color: #333;
   overflow: auto;
   /* clear fix to make div span all elements */
-  border: 1px solid #a6a6a6;
+  border: 1px solid #d9d9d9;
   border-radius: 2px;
   max-width: 410px;
   margin-bottom: 50px;
@@ -5630,22 +5640,22 @@ td {
   display: none;
 }
 .site-logo-text a {
-  color: red;
+  color: #ffa600;
   text-decoration: none;
   font-size: 42px;
 }
 .rm-desktop ul {
-  background-color: #ccc;
+  background-color: #fff;
   color: #333;
 }
 .rm-mobile {
-  color: red;
+  color: #ffa600;
 }
 .rm-mobile a:visited {
-  color: red;
+  color: #ffa600;
 }
 .rm-mobile a:hover {
-  color: #ff3333;
+  color: #ffb833;
 }
 /**
 * Style for breadcrumb.
@@ -5683,6 +5693,28 @@ td {
   margin-right: 0.52083333%;
 }
 /**
+* Style for flash message.
+*/
+/**
+*   Style for flashmessage.
+*/
+.inner-wrap-flash-message {
+  background-color: #3B3B39;
+}
+.flashmessage.info {
+  line-height: 60px;
+  background-color: #3B3B39;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.flashmessage.info p {
+  margin-bottom: 0;
+}
+.flashmessage .flashmessage-icon {
+  float: right;
+  font-size: 2.5em;
+}
+/**
 * Style for sidebar.
 */
 /* Sidebar left */
@@ -5706,7 +5738,7 @@ td {
 .outer-wrap-footer,
 .inner-wrap-footer {
   background: linear-gradient(0deg, #2e2e2c 0%, #3B3B39 100%);
-  color: red;
+  color: #ffa600;
 }
 .site-footer {
   display: inline;
@@ -5717,7 +5749,7 @@ td {
   text-align: center;
 }
 .region-footer {
-  color: red;
+  color: #ffa600;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5725,7 +5757,7 @@ td {
   margin-right: 0.52083333%;
 }
 .footer-column-wrapper {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #ffa600;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5736,11 +5768,11 @@ td {
   color: inherit;
 }
 .region-footer a:hover {
-  color: #ff9999;
+  color: #ffdb99;
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 1px solid red;
+  border-right: 1px solid #ffa600;
 }
 .footer-column-3 h4 {
   visibility: hidden;
@@ -5913,6 +5945,7 @@ td {
 *   H scroll bar fix
 */
 .inner-wrap-header .row,
+.inner-wrap-flash-message .row,
 .inner-wrap-flash .row,
 .region-flash img {
   margin-right: 0;
