@@ -48,7 +48,7 @@ Resultat
 </table>
 
 [FIGURE src="image/wg-film.png?w=300" class="left" caption="WG-film"]
-[FIGURE src="image/wg-film_2.png?w=300" class="" caption="WG-film startsida"]
+[FIGURE src="image/wg-film_2.png?w=300" class="clearfix" caption="WG-film startsida"]
 
 De röda färgtonerna utgör ett analogt färgschema. Färgerna mellan svart och vitt utgör en monokromatisk färgpalett.
 
@@ -83,7 +83,7 @@ Webbplatsens färgval och typografi motsvarar deras profil som ett engagerat fil
 </table>
 
 [FIGURE src="image/b-reel_films.png?w=300" class="left" caption="B-reel films"]
-[FIGURE src="image/b-reel_films_2.png?w=300" class="" caption="BR-F startsida"]
+[FIGURE src="image/b-reel_films_2.png?w=300" class="clearfix" caption="BR-F startsida"]
 
 Färgerna på B-reel films webbplats utgör ett analogt färgschema med nyanser nära en monokromatisk palett.
 
@@ -98,6 +98,32 @@ Vitt och svart har använts som accent bland annat för loggan. Även olika tone
 
 Webbplatsens färgval och typografi motsvarar deras profil som ett extravagant filmbolag med pondus och seriositet.
 
+#### Momento Film
+
+<table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<td style="height: 50px; width: 50px; background-color: #000000">
+<td style="height: 50px; width: 50px; background-color: #666666">
+<td style="height: 50px; width: 50px; background-color: #F5F6F7">
+<td style="height: 50px; width: 50px; background-color: #FFFFFF">
+</tr>
+</table>
+
+[FIGURE src="image/momento-film.png?w=300" class="left" caption="Momento-film"]
+[FIGURE src="image/momento-film_2.png?w=300" class="clearfix" caption="Momento-film"]
+
+Momento films färger utgör ett strikt monokromatiskt färgschema. Endas 4 nyanser har använts där den ena är svart och den andra vit.
+
+Vitt har använts som accent på svart bakgrund. Även svart i form av fet stil fungerar som accent för rubriker.
+
+##### Typsnitt
+
+    H1: "Atlas Grotesk Web", arial, sans-serif.
+    H2: "Atlas Grotesk Web", arial, sans-serif.
+    H3: "Atlas Grotesk Web", arial, sans-serif.
+    p:  "Atlas Grotesk Web", arial, sans-serif.
+
+Webbplatsens färgval och typografi motsvarar delvis deras profil som ett bolag för unga manusförfattare och regissörer.
 
 Analys
 -----------------------
@@ -112,6 +138,16 @@ Rörliga filmklipp på sidan skapar liv medan den monokromatiska skalan av gråt
 B-reels webbplats ger ett moget intryck. Med sin lila-aktiga bakgrund så utstrålar sidan extravagans [^7]. Genom att använda i huvudsak serif-typsnitt så förstärks också intrycket av pondus. 
 
 Det händer mycket på sidan dels för att det är rörligt bildmaterial men också för att den har olika stora bilder. Det känns nästan lite mycket med alla färger och rörelser men det bärs ändå upp av att bilderna följer vissa kolumner och att de har färger i det mörkare inte så mättade spectrat.
+
+#### Momento Film
+Denna webbplats har inga bilder som spelas automatiskt. Det skapar ett lugn och en trygghet i motsats till föregående exempel. Genom att använda san-serif och få färger i paletten så ger det ett enklare intryck. Den svarta bakgrunden och lika dimensioner på bilderna under menyvalen *Films* och *Directors* ger ett något för regidt intryck. De skulle möjligtvis kunnat ha någon färgklick som accent för att lyfta fram en ungdomligare profil eftersom de riktar sig till unga regissörer och manusförfattare.
+
+Sidan ger i form av sina få färger och i övrigt sparsmakad stil ett minimalistiskt och funktionellt intryck.
+
+Avslutande ord
+-----------------------
+
+
 
 Referenser
 -----------------------

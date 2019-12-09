@@ -5505,6 +5505,11 @@ td {
   display: block;
   clear: both;
 }
+.outer-wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -5521,6 +5526,11 @@ td {
 .left {
   float: left;
   margin-right: 8px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 /**
 * Header layout
