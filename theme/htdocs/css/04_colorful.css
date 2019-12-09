@@ -5383,7 +5383,7 @@ th {
   text-align: left;
   padding-right: 10px;
 }
-img {
+.region-flash img {
   filter: grayscale(60%);
   -webkit-filter: grayscale(60%);
 }
@@ -5517,6 +5517,10 @@ td {
 .right {
   float: right;
   margin-left: 8px;
+}
+.left {
+  float: left;
+  margin-right: 8px;
 }
 /**
 * Header layout
@@ -5826,7 +5830,7 @@ td {
 /**
 * Responsive 1, 2, 3
 */
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1270px) {
   .region-main {
     display: inline;
     float: left;
@@ -5890,12 +5894,12 @@ td {
     width: 100%;
   }
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1040px) {
   .region-header-col-3 {
     display: none;
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1040px) {
   .region-header-col-2 {
     display: none;
   }
@@ -5980,7 +5984,7 @@ td {
 /**
 *	Tetrad colors from http://paletton.com
 */
-img {
+.region-flash img {
   filter: none;
   -webkit-filter: none;
 }

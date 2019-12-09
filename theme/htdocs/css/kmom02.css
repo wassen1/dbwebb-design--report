@@ -5345,7 +5345,7 @@ th {
   text-align: left;
   padding-right: 10px;
 }
-img {
+.region-flash img {
   filter: grayscale(60%);
   -webkit-filter: grayscale(60%);
 }
@@ -5684,7 +5684,7 @@ td {
 /**
 * Responsive 1, 2, 3
 */
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1270px) {
   .region-main {
     display: inline;
     float: left;
@@ -5748,12 +5748,12 @@ td {
     width: 100%;
   }
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1040px) {
   .region-header-col-3 {
     display: none;
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1040px) {
   .region-header-col-2 {
     display: none;
   }
