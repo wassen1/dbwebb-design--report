@@ -63,16 +63,28 @@ th {
 }
 
 ul {
-& :link {
-	color: @colorBody;
-}
-& :visited {
-	color: darken(@colorBody, 40%);
-}
-& :hover {
-	color: lighten(@colorBody, 15%);
+	& :link {
+		color: @colorBody;
+	}
+	& :visited {
+		color: darken(@colorBody, 40%);
+	}
+	& :hover {
+		color: lighten(@colorBody, 15%);
+	}
+
 }
 
+.region-header-col-2 ul {
+	& :link {
+		color: @accentFontColor;
+	}
+	& :visited {
+		color: darken(@accentFontColor, 40%);
+	}
+	& :hover {
+		color: lighten(@accentFontColor, 15%);
+	}
 }
 
 blockquote {
