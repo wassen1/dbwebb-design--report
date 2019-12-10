@@ -24,12 +24,25 @@
 }
 
 .rm-desktop ul {
-	background-color: @bgColorBody;
-	color: @colorBody;
+    background-color: @bgColorBody;
+
+    & a:link {
+        color: @colorBody;
+    }
+    & a:visited {
+        color: @colorBody;
+    }
+    & a:hover {
+        color: lighten(@colorBody, 10%);
+    }
+	// color: @colorBody;
 }
 
 .rm-mobile {
-    color: @accentFontColor;
+    // color: @accentFontColor;
+    & a:link {
+        color: @accentFontColor;
+    }
     & a:visited {
         color: @accentFontColor;
     }
