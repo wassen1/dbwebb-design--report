@@ -147,6 +147,7 @@ Sidan ger i form av sina få färger och i övrigt sparsmakad stil ett minimalis
 Avslutande ord
 -----------------------
 
+Utifrån det begränsade urvalet på 3 webbplatser så verkar det vara populärt att använda färger med *tone* eller *shade*[^8] dvs färger som är brutna. Filmmaterial på sidorna kompletterar färgskalan som annar oftast är sparsam. I vissa fall förekommer det accentfärger som frångår den momokromatiska gråskalan.
 
 
 Referenser
@@ -166,6 +167,8 @@ Referenser
 [^6]: Ibid., Kapitel 2.
 
 [^7]: Ibid., Kapitel 2.
+
+[^8]: [Tints and shades](https://en.wikipedia.org/wiki/Tints_and_shades "Tints and shades")
 
 Se fotnoter längst ned på sidan.
 

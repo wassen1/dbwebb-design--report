@@ -5334,9 +5334,11 @@ div {
 select {
   display: inline;
   float: left;
-  width: 48.95833333%;
+  width: 94.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #333;
+  color: #ddd;
 }
 fieldset {
   padding: 20px;
@@ -5375,6 +5377,11 @@ th {
 td {
   border: 1px solid #333;
   padding: 20px ;
+}
+code,
+pre code {
+  background-color: #333;
+  color: #ddd;
 }
 @media (min-width: 64em) {
   html {
@@ -5434,10 +5441,12 @@ td {
 }
 .flashmessage.info p {
   margin-bottom: 0;
+  color: #ffa600;
 }
 .flashmessage .flashmessage-icon {
   float: right;
   font-size: 2.5em;
+  color: #ffa600;
 }
 /**
  * Style for header.
@@ -5777,6 +5786,14 @@ td {
     padding: 0;
   }
 }
+@media screen and (max-width: 745px) {
+  td {
+    padding: 5px;
+  }
+  th {
+    padding: 5px;
+  }
+}
 @media screen and (max-width: 530px) {
   .columns.footer-column-wrapper {
     display: inline;
@@ -5801,10 +5818,13 @@ td {
   .right {
     float: none;
   }
-}
-@media screen and (max-width: 530px) {
   .byline img {
     display: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  fieldset table {
+    font-size: 0.6em;
   }
 }
 /**

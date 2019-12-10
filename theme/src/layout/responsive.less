@@ -70,6 +70,15 @@
     }
 }
 
+@media screen and (max-width: 745px) {
+    td {
+        padding: 5px;
+    }
+    th {
+        padding: 5px;
+    }
+}
+
 @media screen and (max-width: 530px) {
     .columns.footer-column-wrapper {
         #desinax-vgrid.column(@columns);
@@ -86,11 +95,13 @@
     .right {
         float: none;
     }
-
-}
-
-@media screen and (max-width: 530px) {
     .byline img {
         display: none;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    fieldset table {
+        font-size: 0.6em;
     }
 }
