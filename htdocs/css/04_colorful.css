@@ -5684,9 +5684,17 @@ pre code {
 }
 .rm-desktop ul {
   background-color: #FFF2F1;
+}
+.rm-desktop ul a:link {
   color: #000B0B;
 }
-.rm-mobile {
+.rm-desktop ul a:visited {
+  color: #000B0B;
+}
+.rm-desktop ul a:hover {
+  color: #003e3e;
+}
+.rm-mobile a:link {
   color: #F6C69D;
 }
 .rm-mobile a:visited {
@@ -6059,7 +6067,7 @@ pre code {
   filter: none;
   -webkit-filter: none;
 }
-.rm-mobile {
+.rm-mobile a:link {
   color: #000B0B;
 }
 .rm-mobile a:visited {

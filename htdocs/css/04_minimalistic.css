@@ -5684,9 +5684,17 @@ pre code {
 }
 .rm-desktop ul {
   background-color: #E5FDCC;
+}
+.rm-desktop ul a:link {
   color: #4A5242;
 }
-.rm-mobile {
+.rm-desktop ul a:visited {
+  color: #4A5242;
+}
+.rm-desktop ul a:hover {
+  color: #646e59;
+}
+.rm-mobile a:link {
   color: #4F4F4F;
 }
 .rm-mobile a:visited {

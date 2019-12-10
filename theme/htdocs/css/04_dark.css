@@ -4923,7 +4923,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #30352a;
+  background-color: #30352A;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */
@@ -5069,7 +5069,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: #30352a;
+  background-color: #30352A;
   font-size: 100%;
 }
 body {
@@ -5460,7 +5460,7 @@ pre code {
   clear: both;
 }
 .wrap-all {
-  background-color: #30352a;
+  background-color: #30352A;
 }
 .region-main {
   display: inline;
@@ -5684,9 +5684,17 @@ pre code {
 }
 .rm-desktop ul {
   background-color: #4A5242;
+}
+.rm-desktop ul a:link {
   color: #E5FDCC;
 }
-.rm-mobile {
+.rm-desktop ul a:visited {
+  color: #E5FDCC;
+}
+.rm-desktop ul a:hover {
+  color: #fefffd;
+}
+.rm-mobile a:link {
   color: #D7FDAE;
 }
 .rm-mobile a:visited {

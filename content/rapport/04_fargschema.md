@@ -22,7 +22,7 @@ Metod
 -----------------------
 
 De valda sidorna har först undersökts med Color Zillas verktyg WebPage Color Analyzer.
-Sedan har en optisk bedömning av sidans tema gjorts för att kategorisera temat till någon färgteoretiskt schema.
+Sedan har en optisk bedömning av sidans tema gjorts för att kategorisera temat till någon färgteoretiskt schema. Även Adobe Color[^9] har använts för att bättre kategorisera färgerna.
 
 Resultat
 -----------------------
@@ -67,15 +67,15 @@ Webbplatsens färgval och typografi motsvarar deras profil som ett engagerat fil
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #C1BFC2">
-<td style="height: 50px; width: 50px; background-color: #39404C">
-<td style="height: 50px; width: 50px; background-color: #2E343D">
-<td style="height: 50px; width: 50px; background-color: #444D5A">
-<td style="height: 50px; width: 50px; background-color: #222220">
 <td style="height: 50px; width: 50px; background-color: #000000">
+<td style="height: 50px; width: 50px; background-color: #222220">
+<td style="height: 50px; width: 50px; background-color: #2E343D">
 <td style="height: 50px; width: 50px; background-color: #3D3D3D">
+<td style="height: 50px; width: 50px; background-color: #39404C">
+<td style="height: 50px; width: 50px; background-color: #444D5A">
 <td style="height: 50px; width: 50px; background-color: #757575">
 <td style="height: 50px; width: 50px; background-color: #999999">
+<td style="height: 50px; width: 50px; background-color: #C1BFC2">
 <td style="height: 50px; width: 50px; background-color: #E5E5E5">
 <td style="height: 50px; width: 50px; background-color: #EEEEEE">
 <td style="height: 50px; width: 50px; background-color: #FFFFFF">
@@ -147,7 +147,7 @@ Sidan ger i form av sina få färger och i övrigt sparsmakad stil ett minimalis
 Avslutande ord
 -----------------------
 
-Utifrån det begränsade urvalet på 3 webbplatser så verkar det vara populärt att använda färger med *tone* eller *shade*[^8] dvs färger som är brutna. Filmmaterial på sidorna kompletterar färgskalan som annar oftast är sparsam. I vissa fall förekommer det accentfärger som frångår den momokromatiska gråskalan.
+Utifrån det begränsade urvalet på 3 webbplatser så verkar det vara populärt att använda färger med *tone* eller *shade*[^8] dvs färger som är brutna. Filmmaterial på sidorna kompletterar färgskalan som annars oftast är sparsam. I vissa fall förekommer det accentfärger som frångår den momokromatiska gråskalan.
 
 
 Referenser
@@ -169,6 +169,8 @@ Referenser
 [^7]: Ibid., Kapitel 2.
 
 [^8]: [Tints and shades](https://en.wikipedia.org/wiki/Tints_and_shades "Tints and shades")
+
+[^9]: [Adobe Color](https://color.adobe.com/create "Adobe Color")
 
 Se fotnoter längst ned på sidan.
 
