@@ -21,7 +21,7 @@ Följande webbsidor har valts ut:
 Metod
 -----------------------
 
-Först har sidorna analyserats med Google Pagespeed [^5]
+Först har webbplatserna analyserats med *Google Pagespeed* [^5] varefter dess utvalda sidor har analyserats med *devtools* flik *networks* under 3 upprepade test. Varje test i devtools har föregåtts av rensning av cache och hard reload men *Disable cache* har inte använts.
 
 Resultat
 -----------------------
@@ -60,21 +60,24 @@ Sidan använder inte HTTPS och använder sig av sårbar jQuery-kod.
 
 Analys
 -----------------------
+Alla tre webbplatser ser ut att använda sig av Wordpress. En vanlig åkomma ser ut att vara att det finns renderingsblockerande filer. För att avhjälpa detta skulle man behöva försöka ladda viktig Javascript och CSS före mindre viktiga filer som kan laddas in senare när sidan har renderats.
 
-#### WG film
+Det är också vanligt att använda sig av bildformat som skulle kunna ersättas med nyare format så som JPEG 2000, JPEG XR och WebP för att få sidan att ladda snabbare.
 
+Rangordning av webbplatserna
+---------------------------
+1. Momento film
+2. B-reel films
+3. WG film
 
+Momento Film får bäst betyg på Google Pagespeed och laddar sidan mycket snabbare än övriga sidor.
 
-#### B-Reel Films
+Webbplatsernas snabbhet
+-------------------
+För att en sida skall anses ladda snabbt så anser jag att den bör ladda inom 2 sekunder.
+WG film och B-reel films klarar inte denna gräns medan Momento film gör väldigt bra ifrån sig i förhållande till de andra webbplatserna.
 
-
-#### Momento Film
-
-
-Avslutande ord
------------------------
-
-
+Generellt så är spridningen stor mellan webbplatsernas snabbhet. Men det är anmärkningsvärt hur långa laddningstider de två långsammare webbplatserna har där den värsta aldrig slutar att ladda ett filmklipp.
 
 Referenser
 -----------------------

@@ -16,6 +16,25 @@ return [
             "title" => "Första sidan, börja här.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens bloggar",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Kmom05",
+                        "url" => "blogg/dagens-bild",
+                        "title" => "Dagens bild.",
+                    ],
+                    // [
+                    //     "text" => "Kmom02",
+                    //     "url" => "redovisning/kmom02",
+                    //     "title" => "Redovisning för kmom02.",
+                    // ],
+                ],
+            ],
+        ],
+        [
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
