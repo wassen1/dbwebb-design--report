@@ -1,0 +1,137 @@
+/*!
+* Stylesheet for design kmom05.
+*
+* This stylesheet is for the design course and kmom04 where we use LESS.
+*/
+
+
+/**
+* Import mixins.
+*/
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+/**
+* Normalize and reset the style.
+*/
+@import "normalize.css/normalize.less";
+
+/**
+* Font Awesome.
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+* A responsive menu.
+*/
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+
+/**
+* Import the typographic grid.
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+ // Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+/**
+* Import the vertical grid.
+*/
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+/**
+* Base style to affect HTML elements on a general scale.
+*/
+@import "base/base.less";
+
+@import "layout/vgrid.less";
+
+/**
+* Style for main.
+*/
+@import "module/main.less";
+
+/**
+* Style for byline.
+*/
+ @import "module/byline.less";
+
+
+/**
+* Style for header.
+*/
+@import "module/header.less";
+
+/**
+* Style for breadcrumb.
+*/
+@import "module/breadcrumb.less";
+
+/**
+* Style for flash.
+*/
+@import "module/flash.less";
+
+/**
+* Style for flash message.
+*/
+@import "module/flashmessage.less";
+
+/**
+* Style for sidebar.
+*/
+@import "module/sidebar.less";
+
+/**
+* Style for footer.
+*/
+@import "module/footer.less";
+
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "layout/regions.less";     // To add style for ?regions
+@import "layout/responsive.less";
+
+/**
+*   H scroll bar fix
+*/
+.inner-wrap-header .row,
+.inner-wrap-flash-message .row,
+.inner-wrap-flash .row,
+.region-flash img {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+@import "@desinax/figure/less/figure.less";
+
+figure.figure {
+    #desinax-figure.figure();
+}

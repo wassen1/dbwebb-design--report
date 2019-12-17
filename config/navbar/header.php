@@ -17,19 +17,14 @@ return [
         [
             "text" => "Blogg",
             "url" => "blogg",
-            "title" => "Dagens bloggar",
+            "title" => "Dagens bild",
             "submenu" => [
                 "items" => [
                     [
                         "text" => "Kmom05",
-                        "url" => "blogg/dagens-bild",
-                        "title" => "Dagens bild.",
+                        "url" => "blogg/dagens-bild-1",
+                        "title" => "Dagens bild 1.",
                     ],
-                    // [
-                    //     "text" => "Kmom02",
-                    //     "url" => "redovisning/kmom02",
-                    //     "title" => "Redovisning för kmom02.",
-                    // ],
                 ],
             ],
         ],

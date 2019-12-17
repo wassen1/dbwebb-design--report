@@ -23,14 +23,9 @@ return [
                 "items" => [
                     [
                         "text" => "Kmom05",
-                        "url" => "blogg/dagens-bild",
+                        "url" => "blogg/dagens-bild-1",
                         "title" => "Dagens bild.",
                     ],
-                    // [
-                    //     "text" => "Kmom02",
-                    //     "url" => "redovisning/kmom02",
-                    //     "title" => "Redovisning för kmom02.",
-                    // ],
                 ],
             ],
         ],
