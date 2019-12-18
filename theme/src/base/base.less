@@ -1,13 +1,16 @@
 @import "@desinax/vertical-grid/less/grid.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
+@import "@desinax/link/less/anchor-header.less";
 /**
- * Base style to affect HTML elements on a general scale.
- */
- @bgColorHtml: #ccc; // #424242;
- @bgColorBody: #fff;
- @colorBody: #333;
- @accentBgColor: #3B3B39;
- @accentFontColor: rgb(255, 166, 0);
+* Base style to affect HTML elements on a general scale.
+*/
+@bgColorHtml: #ccc; // #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@accentBgColor: #3B3B39;
+@accentFontColor: rgb(255, 166, 0);
+@colorAnchorHeader: @colorBody;
+@colorLightAnchorHeader: lighten(@colorBody, 10%);
  // @fontFamilyBody: serif;
  
 * {
@@ -75,6 +78,7 @@ ul {
 
 }
 
+
 .region-header-col-2 ul {
 	& :link {
 		color: @accentFontColor;
@@ -84,6 +88,20 @@ ul {
 	}
 	& :hover {
 		color: lighten(@accentFontColor, 15%);
+	}
+}
+
+.blog-list-item a {
+	text-decoration: none;
+	&:link {
+		color: @colorBody;
+	}
+	&:visited {
+		color: darken(@colorBody, 40%);
+	}
+	&:hover {
+		color: lighten(@colorBody, 15%);
+		text-decoration: underline;
 	}
 }
 

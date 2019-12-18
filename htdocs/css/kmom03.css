@@ -5051,9 +5051,34 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
 * Base style to affect HTML elements on a general scale.
 */
-/**
- * Base style to affect HTML elements on a general scale.
+/** --------------------------------------------------------------
+ * Anchor for headers with id
  */
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor {
+  display: block;
+}
+.header-anchor {
+  display: none;
+  position: relative;
+  float: right;
+  color: #333;
+  margin-left: -1em;
+  text-decoration: none;
+}
+.header-anchor:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  .header-anchor {
+    display: block;
+    color: #4d4d4d;
+  }
+}
+/**
+* Base style to affect HTML elements on a general scale.
+*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5398,6 +5423,19 @@ ul :hover {
 }
 .region-header-col-2 ul :hover {
   color: #ffc14d;
+}
+.blog-list-item a {
+  text-decoration: none;
+}
+.blog-list-item a:link {
+  color: #333;
+}
+.blog-list-item a:visited {
+  color: #000000;
+}
+.blog-list-item a:hover {
+  color: #595959;
+  text-decoration: underline;
 }
 blockquote {
   border-left: 4px solid #ffa600;
@@ -6085,6 +6123,9 @@ td {
 */
 /* Sidebar left */
 .region-sidebar-left li {
+  list-style-type: none;
+}
+.region-sidebar-right li {
   list-style-type: none;
 }
 /**

@@ -41,3 +41,7 @@ Riggen består av två master; stormasten och fockmasten. Den har fyra försegel
 Fartyget kan lätt ha 35personer plus 5ordinarie besättning under en veckas segling.
 
 Hela fartyget är trots att det är ett traditionsfartyg väl utrustat med modern säkerhetsutrustning.
+
+Så man kan känna sig säker när man ger sig ut på fartyget.
+
+Just det, fartyget är K-märkt och klassat som Traditionsfartyg.
