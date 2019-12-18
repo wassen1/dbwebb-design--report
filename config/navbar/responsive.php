@@ -22,9 +22,19 @@ return [
             "submenu" => [
                 "items" => [
                     [
-                        "text" => "Kmom05",
+                        "text" => "Skridskor",
                         "url" => "blogg/dagens-bild-1",
-                        "title" => "Dagens bild.",
+                        "title" => "Skridskor.",
+                    ],
+                    [
+                        "text" => "Segelfartyg",
+                        "url" => "blogg/dagens-bild-2",
+                        "title" => "Segelfartyg.",
+                    ],
+                    [
+                        "text" => "Moped",
+                        "url" => "blogg/dagens-bild-3",
+                        "title" => "Moped.",
                     ],
                 ],
             ],
