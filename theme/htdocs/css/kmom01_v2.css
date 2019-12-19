@@ -488,6 +488,14 @@ pre code {
   background-color: #333;
   color: #fff;
 }
+::selection {
+  background: #ffb833;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb833;
+  /* Gecko Browsers */
+}
 @media (min-width: 64em) {
   html {
     font-size: 112.5%;

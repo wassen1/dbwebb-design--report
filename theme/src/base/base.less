@@ -135,6 +135,14 @@ pre code {
 	color: @bgColorBody;
 }
 
+::selection {
+    background: lighten(@accentFontColor, 10%); /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+background: lighten(@accentFontColor, 10%); /* Gecko Browsers */
+}
+
 @media (min-width: 64em) {
 	html {
 		font-size: 112.5%;
