@@ -88,6 +88,11 @@ return [
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport för kmom05.",
                     ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport för kmom06.",
+                    ],
                 ],
             ],
         ],
