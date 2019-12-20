@@ -52,21 +52,26 @@ Framsida såväl som undersidor är symetriska förutom flikarna *ABOUT* och *PR
 
 #### B-Reel Films
 
-[FIGURE src="image/b-reel_films.png?w=300" class="left" caption="B-reel films"]
-[FIGURE src="image/b-reel_films_2.png?w=300" class="clearfix" caption="BR-F startsida"]
+[FIGURE src="image/b-reel_films.png?w=300&h=142&crop-to-fit" class="left" caption="Positionering"]
+[FIGURE src="image/b-reel-kontrast.png?w=300&h=142&crop-to-fit" class="clearfix" caption="Kontraster"]
 
 ##### Länk
     https://brf.co/
 
 ##### Mål och syfte
+B-reel films webbplats syfte verkar vara att visa upp sig och skapa cred åt filmbolaget.
 
 ##### Design
+Designen käns lite pretentiös och glassig med mycket rörligt bildmaterial.
 
 ##### Måluppfyllelse
+Webbplatsens design upplevs som lite speciell och uppfyller på så sätt målet med att skapa cred.
 
 ##### Designprinciper
+Designen på webbplatsen använder sig av kontrast. Dels den visuella effekten där de skapar en kontras genom att ha en genomskinlig romb över den rörliga bannern. Positionering används då de har valt att organisera olika bilder med olika storlek i ett omväxlande mönster.
 
 ##### Framsida och undersida
+Framsidan liknar många av undersidorna. Men på bland annat sidan *about* används dominans i form av olika vikt på typsnitten för att skapa ytterligare en form av kontrast.
 
 
 #### Momento Film
