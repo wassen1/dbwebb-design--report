@@ -1,7 +1,7 @@
 Utvärdering av designprinciper
 =======================
 
-Genom att analysera olika webbsidors designprinciper så skapar vi en djupare förståelse för hur designprinciper påverkar hur sidorna uppfattas.
+Genom att analysera olika webbsidors designprinciper så skapar vi en djupare förståelse för hur designprinciper påverkar hur olika sidor uppfattas.
 
 Urval
 -----------------------
@@ -21,7 +21,7 @@ Följande webbsidor har valts ut:
 Metod
 -----------------------
 
-Som underlag till att utvärdera desingprinciper har Wikipedia [^1] använts för att identifiera principer.
+Som underlag till att utvärdera desingprinciper har Wikipedia [^5] använts för att finna definitioner på de olika designprinciperna.
 
 Resultat
 -----------------------
@@ -76,48 +76,45 @@ Framsidan liknar många av undersidorna. Men på bland annat sidan *about* anvä
 
 #### Momento Film
 
-[FIGURE src="image/momento-film.png?w=300" class="left" caption="Momento-film"]
-[FIGURE src="image/momento-film_2.png?w=300" class="clearfix" caption="Momento-film"]
+[FIGURE src="image/momento-film.png?w=300&h=142&crop-to-fit" class="left" caption="Momento-film"]
+[FIGURE src="image/momento-film-enhetligt.png?w=300&h=142&crop-to-fit" class="clearfix" caption="Enhetlighet"]
 
 ##### Länk
     http://momentofilm.se/
 
 ##### Mål och syfte
+Webbplatsen finns till för att visa upp sig och visa vilka filmer de producerat.
 
 ##### Design
+Sidan präglas av enkelhet med mörkt färgtema där bakgrunden är svart med ljus text.
 
 ##### Måluppfyllelse
+Enkelheten i designen gör att det är lätt att hitta information på sidan vilket gynnar mål och syfte med webbplatsen.
 
 ##### Designprinciper
+En utpräglad designprincip som avnänds är *Unity*, enhetlighet. Detta går att se i hur bilderna är organiserade under flikarna *FILMS* och *DIRECTORS* där varje bild är exakt lika stor och placerad bredvid den andra i ett raster. De övriga sidorna har också enhetlighet i att vänsterkolumnen är bred medan den/de högra kolumnen/kolumnerna är smala.
 
 ##### Framsida och undersida
+Framsida och undersidor har alla designats utifrån principen enhetlighet. Det är inte mycket som överraskar förutom deras logga som bryter harmonin.
 
 Analys
 -----------------------
-Alla tre webbplatser ser ut att använda sig av Wordpress. En vanlig åkomma ser ut att vara att det finns renderingsblockerande filer. För att avhjälpa detta skulle man behöva försöka ladda viktig Javascript och CSS före mindre viktiga filer som kan laddas in senare när sidan har renderats.
+De olika webbplatserna fokuserar på olika designprinciper och skiljer sig också ganska mycket åt. Men det som går att observera är att alla webbplatser i urvalet har varit konsekventa med sin design och deras designprinciper.
 
-Det är också vanligt att använda sig av bildformat som skulle kunna ersättas med nyare format så som JPEG 2000, JPEG XR och WebP för att få sidan att ladda snabbare.
-
-Rangordning av webbplatserna
----------------------------
-1. Momento film
-2. B-reel films
-3. WG film
-
-Momento Film får bäst betyg på Google Pagespeed och laddar sidan mycket snabbare än övriga sidor.
-
-Webbplatsernas snabbhet
--------------------
-För att en sida skall anses ladda snabbt så anser jag att den bör ladda inom 2 sekunder.
-WG film och B-reel films klarar inte denna gräns medan Momento film gör väldigt bra ifrån sig i förhållande till de andra webbplatserna.
-
-Generellt så är spridningen stor mellan webbplatsernas snabbhet. Men det är anmärkningsvärt hur långa laddningstider de två långsammare webbplatserna har där den värsta aldrig slutar att ladda ett filmklipp.
+En slutsats skulle kunna vara att genom att vara konsekvent och medveten med vilka designprinciper man använder och på vilket sätt detta görs så skapar man en bättre förutsättning för en god design.
 
 Referenser
 -----------------------
 
-[^1]: [Visual design elements and principles](https://en.wikipedia.org/wiki/Visual_design_elements_and_principles "Visual design elements and principles")
+[^1]: [Beviljade MEDIA-stöd till Sverige 2019](https://www.filminstitutet.se/globalassets/1.-sok-stod/kreativa-europa/beviljade-media-stod/beviljade-media-stod/beviljade-media-stod-till-sverige-2019.pdf "Beviljade MEDIA-stöd till Sverige 2019")
 
+[^2]: [WG Film](http://www.wgfilm.com/ "WG Film")
+
+[^3]: [B-Reel Films](https://brf.co/ "B-Reel Films")
+
+[^4]: [Momento Film](http://momentofilm.se/ "Momento Film")
+
+[^5]: [Visual design elements and principles](https://en.wikipedia.org/wiki/Visual_design_elements_and_principles "Visual design elements and principles")
 
 Se fotnoter längst ned på sidan.
 
