@@ -93,6 +93,11 @@ return [
                         "url" => "rapport/designprincip",
                         "title" => "Rapport för kmom06.",
                     ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Designelement.",
+                    ],
                 ],
             ],
         ],
