@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap');
+
+/**
+*	Tetrad colors from http://paletton.com
+*/
+@bgColorBody: #FFF2F1;
+@bgColorHtml: #F6C69D;
+@accentBgColor: #236467;
+@colorBody: #000B0B;
+@accentFontColor: #F6C69D;
+
+@maxBgColor: @bgColorHtml;
+@maxButtonSubmenuBgColor: darken(@maxBgColor, 10%);
+@maxButtonSubmenuHoverBgColor: @maxButtonSubmenuBgColor;
+
+@colorH4BorderBottom: @accentFontColor;
+
+
+// Set font family to use
+@fontFamilyHeadings:  'Lobster', cursive;
+@fontFamilyBody: 'Montserrat', sans-serif;
+@fontFamilyCode:      @fontFamilyCourier;
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@lineHeight:    1.4;
+// @mainFontSize:  1rem;
+@fontSizeBody: 16px;
+@mainFontWeight:    400;
+@headerFontWeight:  200;
+
+.region-flash img {
+	filter: none;
+	-webkit-filter: none;
+}
+
+.rm-mobile {
+    // color: @colorBody;
+    & a:link {
+        color: @colorBody;
+    }
+    & a:visited {
+        color: @colorBody;
+    }
+    & a:hover {
+        color: lighten(@colorBody, 10%);
+    }
+}
+
+.dot-container {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.dot {
+    float: right;
+    height: 25px;
+    width: 25px;
+    background-color:@accentFontColor;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+.dot:last-of-type {
+    margin-right: 0;
+}
+
+each(range(4), {
+    .dot:nth-of-type(@{value}) {
+      height: (@value * 20px);
+      width: (@value * 20px);
+      background-color: darken(lighten(@accentFontColor, (@value * 5%)), 50%);
+    }
+  });
