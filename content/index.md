@@ -13,12 +13,12 @@ views:
                 type: single
                 route: block/byline
 ---
-Min me-sida i kursen design
-=========================
-
 <div class="dot-container">
     <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
 </div>
+Min me-sida i kursen design
+=========================
+
 
 *Hej!*
 
