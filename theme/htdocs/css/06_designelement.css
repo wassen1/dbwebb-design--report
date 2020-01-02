@@ -6272,3 +6272,17 @@ figure.figure.right {
   width: 80px;
   background-color: #e57515;
 }
+.outer-wrap-main {
+  perspective: 2000px;
+}
+.inner-wrap-main {
+  transform: rotateY(10deg);
+}
+.inner-wrap-main {
+  background-color: red;
+  background-image: url("../../htdocs/img/purty-wood.png");
+  /* fallback */
+  background-image: url("../../htdocs/img/purty-wood.png"), linear-gradient(135deg, #ffffff, #FFF2F1);
+  /* modern browsers */
+  background-repeat: repeat;
+}

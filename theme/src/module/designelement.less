@@ -47,6 +47,9 @@
     }
 }
 
+// Design elements
+
+// Dots
 .dot-container {
     position: relative;
     top: 50px;
@@ -81,3 +84,22 @@ each(range(4), {
       background-color: darken(lighten(@accentFontColor, (@value * 5%)), 50%);
     }
   });
+
+// Space; perspective
+.outer-wrap-main {
+    perspective: 2000px;
+}
+.inner-wrap-main {
+    transform: rotateY(10deg);
+}
+
+// Textures and Gradients
+
+.inner-wrap-main {
+    background-color: red;
+    background-image: url("../../htdocs/img/purty-wood.png"); /* fallback */
+    background-image: url("../../htdocs/img/purty-wood.png"), linear-gradient(135deg, lighten(@bgColorBody, 15%), @bgColorBody); /* modern browsers */
+    background-repeat: repeat;
+}
+
+
