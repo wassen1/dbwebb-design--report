@@ -549,6 +549,8 @@ pre code {
 .wrap-sidebar .block h4 {
   border-top: 1px solid #ccc;
   background-image: linear-gradient(to right, #fff, #ccc);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /**
 * Import the vertical grid.

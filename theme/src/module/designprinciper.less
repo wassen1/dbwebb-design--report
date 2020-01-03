@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Montserrat&display=swap');
+
+/**
+*	Tetrad colors from http://paletton.com
+*/
+@bgColorBody: #CFD5FF;
+@bgColorHtml: #E8EBFF;
+@accentBgColor: #BDBDBD;
+@colorBody: #000B0B;
+@accentFontColor: #2F313B;
+
+@maxBgColor: @bgColorHtml;
+@maxButtonSubmenuBgColor: darken(@maxBgColor, 10%);
+@maxButtonSubmenuHoverBgColor: @maxButtonSubmenuBgColor;
+
+@colorH4BorderBottom: @accentFontColor;
+
+
+// Set font family to use
+@fontFamilyHeadings: 'Abhaya Libre', serif;
+@fontFamilyBody: 'Montserrat', sans-serif;
+@fontFamilyCode:      @fontFamilyCourier;
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@lineHeight:    1.4;
+// @mainFontSize:  1rem;
+@fontSizeBody: 16px;
+@mainFontWeight:    400;
+@headerFontWeight:  200;
+
+.region-flash img {
+	filter: none;
+	-webkit-filter: none;
+}
+
+.rm-mobile {
+    // color: @colorBody;
+    & a:link {
+        color: @colorBody;
+    }
+    & a:visited {
+        color: @colorBody;
+    }
+    & a:hover {
+        color: lighten(@colorBody, 10%);
+    }
+}
+
+// Design elements
+
+// Dots
+// .dot-container {
+//     position: relative;
+//     top: 50px;
+//     right: 0;
+//     display:flex;
+//     justify-content:flex-end;
+//     align-items:center;
+//     height: 0;
+// }
+
+// .dot {
+//     float: right;
+//     height: 25px;
+//     width: 25px;
+//     background-color:@accentFontColor;
+//     opacity: 0.3;
+//     border-radius: 50%;
+//     margin-right: 10px;
+//     &:hover {
+//         opacity: 1;
+//     }
+//   }
+
+// .dot:last-of-type {
+//     margin-right: 0;
+// }
+
+// each(range(4), {
+//     .dot:nth-of-type(@{value}) {
+//       height: (@value * 20px);
+//       width: (@value * 20px);
+//       background-color: darken(lighten(@accentFontColor, (@value * 5%)), 50%);
+//     }
+//   });
+
+// Space; perspective
+// .outer-wrap-main {
+//     perspective: 4000px;
+// }
+// .inner-wrap-main {
+//     transform: rotateY(10deg);
+// }
+// Lines 
+
+h1 {
+    border-bottom: 5px solid @accentBgColor;
+}
+
+h4 {
+    border-bottom: 2px solid @accentBgColor;
+}
+// Textures and Gradients
+// https://www.transparenttextures.com/
+
+.inner-wrap-main {
+    background-image: url("../../htdocs/img/old-mathematics.png"); /* fallback */
+    background-image: url("../../htdocs/img/old-mathematics.png"), linear-gradient(135deg, lighten(@bgColorBody, 15%), @bgColorBody); /* modern browsers */
+    background-repeat: repeat;
+}
+
+.inner-wrap-flash {
+    #desinax-vgrid.grid(@maxContentWidth);
+}
+.region-flash img {
+    #desinax-vgrid.column(@columns);
+}
+
+/**
+*   H scroll bar fix
+*/
+.inner-wrap-header .row,
+.inner-wrap-flash-message .row,
+.inner-wrap-flash .row,
+.inner-wrap-main .row,
+.inner-wrap-breadcrumb .row,
+.region-flash img {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+/**
+* Footer
+*/
+.outer-wrap-footer,
+.inner-wrap-footer {
+    background: linear-gradient(0deg, darken(@accentBgColor, 30%) 0%, darken(@accentBgColor, 25%) 100%);
+}
+
+.region-footer {
+    color: lighten(@accentBgColor, 10%);
+}
+
+.footer-column-wrapper {
+    border-bottom: 1px solid lighten(@accentBgColor, 10%);
+}
+
+.region-footer a:hover {
+    color: lighten(@accentBgColor, 40%);
+}
+
+.footer-column-1, .footer-column-2 {
+	border-right: 1px solid lighten(@accentBgColor, 10%);
+}
+
+/**
+* Shadows
+*/
+.row {
+    -webkit-box-shadow: 10px 10px 24px -5px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 10px 24px -5px rgba(0,0,0,0.12);
+    box-shadow: 10px 10px 24px -5px rgba(0,0,0,0.12);
+}

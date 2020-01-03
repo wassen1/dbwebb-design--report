@@ -5574,7 +5574,6 @@ pre code {
 .outer-wrap-footer,
 .inner-wrap-footer {
   background: linear-gradient(0deg, #2e2e2c 0%, #3B3B39 100%);
-  color: #ffa600;
 }
 .site-footer {
   display: inline;
@@ -5686,6 +5685,8 @@ pre code {
 .wrap-sidebar .block h4 {
   border-top: 1px solid #ccc;
   background-image: linear-gradient(to right, #fff, #ccc);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer

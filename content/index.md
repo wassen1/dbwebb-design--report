@@ -26,7 +26,7 @@ Kul att du har hittat hit. Detta är en sida som är skapad för kursen **Teknis
 
 ## Lite om mig ##
 
-[FIGURE src="image/me-small.jpg?w=300" class="right" caption="Bild på mig vid havet."]
+[FIGURE src="image/me-small.jpg?w=300" class="right w33" caption="Bild på mig vid havet."]
 
 Jag har intresserat mig för programmering sedan 2017. Det började med att vi startade en dataklubb tillsammans med några vänner för att förkovra oss inom datorer och programmering.
 
