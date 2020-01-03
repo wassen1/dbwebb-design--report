@@ -87,14 +87,13 @@ each(range(4), {
 
 // Space; perspective
 .outer-wrap-main {
-    perspective: 2000px;
+    perspective: 4000px;
 }
 .inner-wrap-main {
     transform: rotateY(10deg);
 }
 
 // Textures and Gradients
-
 .inner-wrap-main {
     background-color: red;
     background-image: url("../../htdocs/img/purty-wood.png"); /* fallback */
@@ -102,4 +101,8 @@ each(range(4), {
     background-repeat: repeat;
 }
 
-
+// Lines
+h1 {
+    border-bottom: 10px double @accentBgColor;
+    border-radius: 10px;
+}

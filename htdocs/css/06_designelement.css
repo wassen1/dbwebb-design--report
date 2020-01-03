@@ -1,15 +1,15 @@
 /*!
-* Stylesheet colorful theme.
+* Stylesheet with design elements.
 *
-* This stylesheet is for the design course and kmom04 where we use LESS.
+* This stylesheet is for the design course and kmom06 where we use LESS.
 */
 /**
 * Base theme kmom06.
 */
 /*!
-* Stylesheet for design kmom05.
+* Stylesheet for design kmom06.
 *
-* This stylesheet is for the design course and kmom04 where we use LESS.
+* This stylesheet is for the design course and kmom06 where we use LESS.
 */
 /**
 * Import mixins.
@@ -6273,7 +6273,7 @@ figure.figure.right {
   background-color: #e57515;
 }
 .outer-wrap-main {
-  perspective: 2000px;
+  perspective: 4000px;
 }
 .inner-wrap-main {
   transform: rotateY(10deg);
@@ -6285,4 +6285,8 @@ figure.figure.right {
   background-image: url("../../htdocs/img/purty-wood.png"), linear-gradient(135deg, #ffffff, #FFF2F1);
   /* modern browsers */
   background-repeat: repeat;
+}
+h1 {
+  border-bottom: 10px double #236467;
+  border-radius: 10px;
 }
