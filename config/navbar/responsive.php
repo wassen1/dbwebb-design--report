@@ -109,6 +109,11 @@ return [
                         "url" => "rapport/designprinciper",
                         "title" => "Designprinciper.",
                     ],
+                    [
+                        "text" => "Designtrender",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Designtrender.",
+                    ],
                 ],
             ],
         ],

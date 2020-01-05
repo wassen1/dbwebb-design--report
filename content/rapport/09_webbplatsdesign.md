@@ -10,105 +10,107 @@ Syftet har varit att hitta etablerade filmbolag i Sverige.
 
 Urvalet är gjort utifrån beviljade beviljade Kontinuitetsstöd 2018 enligt Svenska filminstitutets hemsida. De webbplatser som valts ut har alla fått kontinuitetsstöd[^1].
 
-Att ett filmbolag har fått kontinuitetsstöd är en indikator för att bolaget är etablerat i branchen eftersom det skall ha haft minst två långfilmspremiärer under den senaste 5årsperioden.
+Att ett filmbolag har fått kontinuitetsstöd är en indikator för att bolaget är etablerat i branchen eftersom det skall ha haft minst två långfilmspremiärer under den senaste 5-årsperioden.
 
 Följande webbsidor har valts ut:
 
-+ Anagram Sverige[^2]
-+ Art & Bob Film & Drama AB[^3]
-+ Story AB[^4]
++ Anagram[^2]
++ Art & Bob Film & Drama[^3]
++ Story[^4]
 
 Metod
 -----------------------
 
-Som underlag till att utvärdera desingprinciper har Wikipedia [^5] använts för att finna definitioner på de olika designprinciperna.
+Som underlag till att utvärdera designelement och designprinciper har Wikipedia[^5] använts för att finna definitioner på de olika designprinciper och designelement.
 
 Resultat
 -----------------------
 
-#### WG film
+#### Anagram
 
-[FIGURE src="image/wg-film_2.png?w=300&h=142&crop-to-fit" class="left" caption="WG-film startsida"]
-[FIGURE src="image/wg-film-asymetry.png?w=300&h=142&crop-to-fit" class="clearfix" caption="Asymetrisk sida"]
+[FIGURE src="image/anagram_productions.png?w=300&h=218&crop-to-fit" class="left" caption="Enhetlighet"]
+[FIGURE src="image/anagram_details.png?w=300&h=218&crop-to-fit" class="clearfix" caption="Stor bild"]
 
 ##### Länk
-    http://www.wgfilm.com/
+    https://anagram.se/
 
 ##### Mål och syfte
-Syftet med WG films webbplats handlar nog om att visa upp sig och att informera om aktuella filmer. Ett syfte är även att sälja filmer.
+Syftet med Anagrams webbplats handlar nog om att visa upp sig och att informera om aktuella filmer.
 
 ##### Design
-Webbplatsens design präglas generellt av att den har ett enkelt, lättillgängligt och prestigelöst uttryck. 
+Webbplatsens design präglas generellt av ett rent, enkelt och enhetligt uttryck.
 
 ##### Måluppfyllelse
-Enkelheten i designen gynnar mål och syfte. Det är lätt att navigera på sidan vilket gör att det är större sannolikhet till att besökaren kollar på filmer eller läser om dem.
+Enkelheten i designen gynnar webbplatsens syfte och mål. Det är lätt att navigera på sidan vilket gör att det är större sannolikhet att besökaren läser om filmer eller kollar på dem.
 
 ##### Designprinciper
-Sidan använder sig mycket av horisontell symetri som skapar en viss form av harmoni. Den använder sig av element som form, t ex rektangulära fält bland annat för filmposters.
+Webbplatsens har en tydlig harmoni och känns enhetlig. Att varje film representeras av en lika stor bild gör att det skapas en rytm som stärker enhetligheten.
 
-##### Framsida och undersida
-Framsida såväl som undersidor är symetriska förutom flikarna *ABOUT* och *PRESS* som har inslag av asymetri. Dessa undersidor är undantag som bidrar till liv åt webbplatsen.
+##### Designelement
+Ett designelement som har använts är att alla bilder ser ut att ha ett mjukt filter samt att texten inte är helt svart. Detta gör att hela webbplatsen får ett något mjukt intryck.
 
 
-#### B-Reel Films
+#### Art & Bob Film & Drama
 
-[FIGURE src="image/b-reel_films.png?w=300&h=142&crop-to-fit" class="left" caption="Positionering"]
-[FIGURE src="image/b-reel-kontrast.png?w=300&h=142&crop-to-fit" class="clearfix" caption="Kontraster"]
+[FIGURE src="image/art-bob_sizes.png?w=300&h=218&crop-to-fit" class="left" caption="Olika storlekar"]
+[FIGURE src="image/art-bob_contact.png?w=300&h=218&crop-to-fit" class="clearfix" caption="Betoningar"]
 
 ##### Länk
-    https://brf.co/
+    https://artbob.se/
 
 ##### Mål och syfte
-B-reel films webbplats syfte verkar vara att visa upp sig och skapa cred åt filmbolaget.
+Syftet med Art & Bobs webbplats handlar nog om att visa upp sig och att informera om aktuella filmer.
 
 ##### Design
-Designen käns lite pretentiös och glassig med mycket rörligt bildmaterial.
+Designen känns livfull men samtidigt ren och enkel.
 
 ##### Måluppfyllelse
-Webbplatsens design upplevs som lite speciell och uppfyller på så sätt målet med att skapa cred.
+Webbplatsen visar upp filmbolagets filmer men den ger samtidigt ett något rörigt intryck även om det är relativt lätt att navigera sig fram. På så sätt så uppfyller den delvis målet med webbsidan.
 
 ##### Designprinciper
-Designen på webbplatsen använder sig av kontrast. Dels den visuella effekten där de skapar en kontras genom att ha en genomskinlig romb över den rörliga bannern. Positionering används då de har valt att organisera olika bilder med olika storlek i ett omväxlande mönster.
+Designen på webbplatsen använder sig av kontrast. Det är stora kontraster i texterna där länkar har fått en tydlig fetmarkering. Positionering och struktur används då de har valt att ha olika format på bilder. Detta skapar en livfull sida.
 
-##### Framsida och undersida
-Framsidan liknar många av undersidorna. Men på bland annat sidan *about* används dominans i form av olika vikt på typsnitten för att skapa ytterligare en form av kontrast.
+##### Designelement
+Genomgående på hela webbplatsen är typsnittet san-serif vilket bidrar till att sidan ger ett rent och enkelt uttryck.
 
 
-#### Momento Film
+#### Story
 
-[FIGURE src="image/momento-film.png?w=300&h=142&crop-to-fit" class="left" caption="Momento-film"]
-[FIGURE src="image/momento-film-enhetligt.png?w=300&h=142&crop-to-fit" class="clearfix" caption="Enhetlighet"]
+[FIGURE src="image/story_details.png?w=300&h=218&crop-to-fit" class="left" caption="Stor bild"]
+[FIGURE src="image/story_productions.png?w=300&h=218&crop-to-fit" class="clearfix" caption="Enhetlighet"]
 
 ##### Länk
-    http://momentofilm.se/
+    http://story.se/
 
 ##### Mål och syfte
 Webbplatsen finns till för att visa upp sig och visa vilka filmer de producerat.
 
 ##### Design
-Sidan präglas av enkelhet med mörkt färgtema där bakgrunden är svart med ljus text.
+Sidans design upplevs enhetlig, enkel och avskalad.
 
 ##### Måluppfyllelse
 Enkelheten i designen gör att det är lätt att hitta information på sidan vilket gynnar mål och syfte med webbplatsen.
 
 ##### Designprinciper
-En utpräglad designprincip som avnänds är *Unity*, enhetlighet. Detta går att se i hur bilderna är organiserade under flikarna *FILMS* och *DIRECTORS* där varje bild är exakt lika stor och placerad bredvid den andra i ett raster. De övriga sidorna har också enhetlighet i att vänsterkolumnen är bred medan den/de högra kolumnen/kolumnerna är smala.
+En designprincip som används är enhetlighet. Man kan se det i hur bilderna är organiserade under flikarna *FILMS*, *ABOUT* och *CONTACT* där varje bild är exakt lika stor och placerad bredvid den andra i ett raster. För att representera personalen så har de använt en bild med samma format som filmerna.
 
-##### Framsida och undersida
-Framsida och undersidor har alla designats utifrån principen enhetlighet. Det är inte mycket som överraskar förutom deras logga som bryter harmonin.
+##### Designelement
+Webbplatsen har använt sig av designelementet form genom att aktuellt menyval markeras med en svart rektangel. Den har också inslag av linjer genom att avståndet mellan bilderna är lika stort och på så sätt skapas lodräta och horisontella linjer.
 
 Analys
 -----------------------
-De olika webbplatserna fokuserar på olika designprinciper och skiljer sig också ganska mycket åt. Men det som går att observera är att alla webbplatser i urvalet har varit konsekventa med sin design och deras designprinciper.
+### Webbplatsdesign och trender
+Det är vanligt att använda mycket bilder, gärna stora format och ibland med rörliga bakgrundsbilder. Färgschemat är också vanligtvis ljust och monochromatiskt med ljus bakgrund som kan kontrastera till bilderna/filmerna på webbplatsen.
 
-En slutsats skulle kunna vara att genom att vara konsekvent och medveten med vilka designprinciper man använder och på vilket sätt detta görs så skapar man en bättre förutsättning för en god design.
+Generellt kan man se, utifrån aktuellt urval, att filmbolag använder sig av en avskalad design som är enhetlig och enkel. Detta skapar en känsla av stabilitet och ordning vilket gynnar sidornas syften med att visa upp sig och upplevas som etablerade(stabila) inom branchen.
+
 
 Referenser
 -----------------------
 
 [^1]: [Beviljade Kontinuitetsstöd 2018](https://www.filminstitutet.se/globalassets/1.-sok-stod/filminstitutets-stod/_beviljade-stod/kontinuitetsstod/kontinuitetsstod---beviljade-2018.pdf "Beviljade Kontinuitetsstöd 2018")
 
-[^2]: [Anagram Sverige AB](https://anagram.se/ "Anagram Sverige")
+[^2]: [Anagram](https://anagram.se/ "Anagram")
 
 [^3]: [Art & Bob Film & Drama AB](https://artbob.se/ "Art & Bob Film & Drama")
 

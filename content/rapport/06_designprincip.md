@@ -92,7 +92,7 @@ Sidan präglas av enkelhet med mörkt färgtema där bakgrunden är svart med lj
 Enkelheten i designen gör att det är lätt att hitta information på sidan vilket gynnar mål och syfte med webbplatsen.
 
 ##### Designprinciper
-En utpräglad designprincip som avnänds är *Unity*, enhetlighet. Detta går att se i hur bilderna är organiserade under flikarna *FILMS* och *DIRECTORS* där varje bild är exakt lika stor och placerad bredvid den andra i ett raster. De övriga sidorna har också enhetlighet i att vänsterkolumnen är bred medan den/de högra kolumnen/kolumnerna är smala.
+En utpräglad designprincip som används är *Unity*, enhetlighet. Detta går att se i hur bilderna är organiserade under flikarna *FILMS* och *DIRECTORS* där varje bild är exakt lika stor och placerad bredvid den andra i ett raster. De övriga sidorna har också enhetlighet i att vänsterkolumnen är bred medan den/de högra kolumnen/kolumnerna är smala.
 
 ##### Framsida och undersida
 Framsida och undersidor har alla designats utifrån principen enhetlighet. Det är inte mycket som överraskar förutom deras logga som bryter harmonin.
