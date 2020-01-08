@@ -5944,12 +5944,12 @@ pre code {
     margin-right: 0.52083333%;
   }
 }
-@media screen and (min-width: 1135px) {
+@media screen and (min-width: 1165px) {
   .region-header-col-3 {
     display: none;
   }
 }
-@media screen and (max-width: 1135px) {
+@media screen and (max-width: 1165px) {
   .region-header-col-2 {
     display: none;
   }
