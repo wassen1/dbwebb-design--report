@@ -113,6 +113,11 @@ return [
                         "url" => "rapport/webbplatsdesign",
                         "title" => "Designtrender.",
                     ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/design-och-webbplatser",
+                        "title" => "Laddningstid.",
+                    ],
                 ],
             ],
         ],
