@@ -74,7 +74,7 @@ Rangordning av webbplatserna
 2. Göteborgs stad (81)
 3. Malmö stad (72)
 
-Stockholms stad förljs hack i häl av Göteborgs stad och Malmö stad presterar här sämst då ett genom snitt av alla värden, både för Google Pagespeed och för Google Lighthouse tas fram. Det är intressant att iaktta att rangordningen speglar antal invånare och man kan fundera om det finns någon koppling mellan resurserunderlaget för webbplatsen och prestationen.
+Stockholms stad förljs hack i häl av Göteborgs stad och Malmö stad presterar här sämst då ett genomsnitt av alla värden, både för Google Pagespeed och för Google Lighthouse tas fram. Det är intressant att iaktta att rangordningen speglar antal invånare och man kan fundera över om det finns någon koppling mellan resursunderlaget för webbplatsen och dess prestation.
 
 En vanlig brist verkar vara att sidorna tar lång tid på sig innan de blir interaktiva vilket drar ned betyget för *speed*. Detta kan oftast avhjälpas med lacy loading av bilder och att kritisk css laddas först medan oanvänd css laddas senare.
 
