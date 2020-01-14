@@ -75,6 +75,11 @@ return [
                         "url" => "redovisning/kmom06",
                         "title" => "Redovisning för kmom06.",
                     ],
+                    [
+                        "text" => "Kmom10",
+                        "url" => "redovisning/kmom10",
+                        "title" => "Redovisning för kmom10.",
+                    ],
                 ],
             ],
         ],
@@ -85,19 +90,19 @@ return [
             "submenu" => [
                 "items" => [
                     [
-                        "text" => "Kmom04",
+                        "text" => "Färgschema",
                         "url" => "rapport/fargschema",
-                        "title" => "Rapport för kmom04.",
+                        "title" => "Färgschema.",
                     ],
                     [
-                        "text" => "Kmom05",
+                        "text" => "Laddningstid",
                         "url" => "rapport/laddningstid",
-                        "title" => "Rapport för kmom05.",
+                        "title" => "Laddningstid.",
                     ],
                     [
-                        "text" => "Kmom06",
+                        "text" => "Designprinciper utvärdering",
                         "url" => "rapport/designprincip",
-                        "title" => "Rapport för kmom06.",
+                        "title" => "Designprinciper utvärdering.",
                     ],
                     [
                         "text" => "Designelement",
@@ -115,9 +120,9 @@ return [
                         "title" => "Designtrender.",
                     ],
                     [
-                        "text" => "Laddningstid",
+                        "text" => "Prestanda",
                         "url" => "rapport/design-och-webbplatser",
-                        "title" => "Laddningstid.",
+                        "title" => "Prestanda.",
                     ],
                 ],
             ],
