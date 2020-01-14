@@ -102,7 +102,7 @@ Analys
 ### Webbplatsdesign och trender
 Det är vanligt att använda mycket bilder, gärna stora format och ibland med rörliga bakgrundsbilder. Färgschemat är också vanligtvis ljust och monochromatiskt med ljus bakgrund som kan kontrastera till bilderna/filmerna på webbplatsen.
 
-Generellt kan man se, utifrån aktuellt urval, att filmbolag använder sig av en avskalad design som är enhetlig och enkel. Detta skapar en känsla av stabilitet och ordning vilket gynnar sidornas syften med att visa upp sig och upplevas som etablerade(stabila) inom branchen.
+Generellt kan man se, utifrån aktuellt urval, att filmbolag använder sig av en avskalad design som är enhetlig och enkel. Detta skapar en känsla av stabilitet och ordning vilket gynnar sidornas syften med att visa upp sig och upplevas som etablerade(stabila) inom branschen.
 
 
 Referenser

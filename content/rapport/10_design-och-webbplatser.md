@@ -1,7 +1,7 @@
-Analys av laddningstid
+Analys av prestanda
 =======================
 
-Genom att analysera olika webbsidors laddningstider så skapar vi en djupare förståelse för hur prestandan påverkar sidornas användbarhet.
+Genom att analysera olika webbsidors prestanda så skapar vi en djupare förståelse för designprocessen utifrån användbarhet. Idag besöks webbplatser ofta av mobila enheter med begränsad surf och man vill snabbt kunna använda den besökta sidan. Därför är det viktigt att designa väl fungerande webbplatser som laddar snabbt och inte konsumerar för mycket data från användarens surfpott.
 
 Urval
 -----------------------
@@ -18,11 +18,11 @@ Följande webbsidor har således valts ut:
 Metod
 -----------------------
 
-[FIGURE src="image/audit-settings.png?w=300" class="right" caption="Inställningar för Audits"]
+[FIGURE src="image/audit-settings.png?w=300" class="right" caption="Inställningar för Lighthouse"]
 
 Webbplatserna har analyserats med *Google Pagespeed*[^5] därefter har *startsida*, sida för *skola/utbildning* och sist sida för *kontakt* analyserats med *devtools* flik *Audits* även kallat *Lighthouse* för respektive mobil och dator.
 
-Inställningar för Audits se bild.
+Inställningar för Lighthouse se bild.
 
 
 
@@ -74,7 +74,7 @@ Rangordning av webbplatserna
 2. Göteborgs stad (81)
 3. Malmö stad (72)
 
-Stockholms stad förljs hack i häl av Göteborgs stad och Malmö stad presterar här sämst då ett genomsnitt av alla värden, både för Google Pagespeed och för Google Lighthouse tas fram. Det är intressant att iaktta att rangordningen speglar antal invånare och man kan fundera över om det finns någon koppling mellan resursunderlaget för webbplatsen och dess prestation.
+Stockholms stad förljs hack i häl av Göteborgs stad och Malmö stad presterar här sämst då ett genomsnitt av alla värden, både för Google Pagespeed och för Google Lighthouse tas fram (medlevärden inom parentes här ovanför). Det är intressant att iaktta att rangordningen speglar antal invånare och man kan fundera över om det finns någon koppling mellan resursunderlaget för webbplatsen och dess prestation.
 
 En vanlig brist verkar vara att sidorna tar lång tid på sig innan de blir interaktiva vilket drar ned betyget för *speed*. Detta kan oftast avhjälpas med lacy loading av bilder och att kritisk css laddas först medan oanvänd css laddas senare.
 
